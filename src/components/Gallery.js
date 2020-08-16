@@ -2,11 +2,11 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import React, { Component } from 'react'  
 
-class Gallery extends Component {  
+export class BootstrapGallery extends Component {  
         render() {  
                 return (  
                         <div>  
-                         <div class='container-fluid' >  
+                         <div class='container' >  
                           <div className="row title" style={{ marginBottom: "50px" }} >  
                           <div class="col-sm-12 btn btn-warning">  
                           
@@ -97,4 +97,4 @@ class Gallery extends Component {
         }  
 }  
 
-export default Gallery
+export default BootstrapGallery

@@ -28,62 +28,199 @@ export default class Events extends Component {
                 parts of the country.
               </p>
             </div>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-            <div class="container h-100">
-              <div class="row align-middle">
-                <div class="col-md-6 col-lg-4 column">
-                  <div class="card gr-1">
-                    <div class="txt">
-                      <h1>
-                        BRANDING AND <br />
-                        CORPORATE DESIGN
-                      </h1>
-                      <p>Visual communication and problem-solving</p>
-                    </div>
-                    <a href="#">more</a>
-                    <div class="ico-card">
-                      <i class="fa fa-rebel"></i>
-                    </div>
-                  </div>
+          </div>
+          <br />
+          <div className="row pt-5 m-auto">
+            {/* card 1 */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+              <div className="card card-custom bg-white border-white border-0">
+                <div className="card-custom-img ">
+                  <p>1</p>
                 </div>
-                <div class="col-md-6 col-lg-4 column">
-                  <div class="card gr-2">
-                    <div class="txt">
-                      <h1>
-                        Web Front-End <br />
-                        SOLUTIONS
-                      </h1>
-                      <p>How design is implemented on the web.</p>
-                    </div>
-                    <a href="#">more</a>
-                    <div class="ico-card">
-                      <i class="fa fa-codepen"></i>
-                    </div>
+                <div className="card-custom-avatar">
+                  <div class="service-icon">
+                    <span>
+                      <i
+                        className="fa fa-question fa-4x"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
                   </div>
+
+                  {/* <img
+                    class="img-fluid"
+                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
+                    alt="Avatar"
+                  /> */}
                 </div>
-                <div class="col-md-6 col-lg-4 column">
-                  <div class="card gr-3">
-                    <div class="txt">
-                      <h1>
-                        UX/UI WEBsite <br />
-                        AND MOBILE app
-                      </h1>
-                      <p>User Interface and User Experience Design.</p>
-                    </div>
-                    <a href="#">more</a>
-                    <div class="ico-card">
-                      <i class="fa fa-empire"></i>
-                    </div>
-                  </div>
+                <div className="card-body">
+                  <h4 className="card-title">TECHNICAL QUIZ</h4>
+                  <p className="card-text">
+                    Card has minimum height set but will expand if more space is
+                    needed for card body content. You can use Bootstrap to align
+                    multiple cards nicely in a row.
+                  </p>
+                </div>
+                <div className="card-footer bg-transparent border-light">
+                  <a href="#" className="btn btn-primary">
+                    Enroll
+                  </a>
                 </div>
               </div>
             </div>
+
+            {/* price money */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+              <p>
+                Attractive prices worth &#8377; 1 Lakh and Internship offers and
+                many more
+              </p>
+            </div>
+            {/* card 2 */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+              <div className="card card-custom bg-white border-white border-0">
+                <div className="card-custom-img"></div>
+                <div className="card-custom-avatar">
+                  <div class="service-icon">
+                    <span>
+                      <i
+                        className="fa fa-file-code-o fa-4x"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                  </div>
+
+                  {/* <img
+                    class="img-fluid"
+                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
+                    alt="Avatar"
+                  /> */}
+                </div>
+                <div className="card-body">
+                  <h4 className="card-title">PROJECT CONTEST</h4>
+                  <p className="card-text">
+                    In this event UG/PG students have to present their project
+                    along with running code.
+                  </p>
+                </div>
+                <div className="card-footer bg-transparent border-light">
+                  <a href="#" className="btn btn-primary">
+                    Enroll
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* card 3 , 4 , 5 */}
           </div>
-        
+          <div className="row pt-5 m-auto">
+            {/* card 1 */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+              <div className="card card-custom bg-white border-white border-0">
+                <div className="card-custom-img"></div>
+                <div className="card-custom-avatar">
+                  <div class="service-icon">
+                    <span>
+                      <i className="fa fa-code fa-4x" aria-hidden="true"></i>
+                    </span>
+                  </div>
+
+                  {/* <img
+                    class="img-fluid"
+                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
+                    alt="Avatar"
+                  /> */}
+                </div>
+                <div className="card-body">
+                  <h4 className="card-title">PROGRAMMING CONTEST</h4>
+                  <p className="card-text">
+                    Participant has to write code for a given problem.Problem
+                    statement will be given on spot to the participants.
+                  </p>
+                </div>
+                <div className="card-footer bg-transparent border-light">
+                  <a href="#" className="btn btn-primary">
+                    Enroll
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* price money */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+              <div className="card card-custom bg-white border-white border-0">
+                <div className="card-custom-img"></div>
+                <div className="card-custom-avatar">
+                  <div class="service-icon">
+                    <span>
+                      <i
+                        className="fa fa-lightbulb-o fa-4x"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                  </div>
+
+                  {/* <img
+                    class="img-fluid"
+                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
+                    alt="Avatar"
+                  /> */}
+                </div>
+                <div className="card-body">
+                  <h4 className="card-title">IDEA POSTER AND STARTUP</h4>
+                  <p className="card-text">
+                    Participant has to show case idea for their poster and show
+                    their poster making ability
+                  </p>
+                </div>
+                <div className="card-footer bg-transparent border-light">
+                  <a href="#" className="btn btn-primary">
+                    Enroll
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* card 2 */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+              <div className="card card-custom bg-white border-white border-0">
+                <div className="card-custom-img"></div>
+                <div className="card-custom-avatar">
+                  <div class="service-icon">
+                    <span>
+                      <i className="fa fa-edit fa-4x" aria-hidden="true"></i>
+                    </span>
+                  </div>
+
+                  {/* <img
+                    class="img-fluid"
+                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
+                    alt="Avatar"
+                  /> */}
+                </div>
+                <div className="card-body">
+                  <h4 className="card-title">
+                    RESEARCH PUBLICATION & ARTICLES
+                  </h4>
+                  <p className="card-text">
+                    In this event participants prepare/create Research
+                    Publications & Articles.It should be submitted on given
+                    date.
+                  </p>
+                </div>
+                <div className="card-footer bg-transparent border-light">
+                  <a href="#" className="btn btn-primary">
+                    Enroll
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           
+          </div>
+          <br />
+          <br />
+          <br />
+        </div>
       </div>
     );
   }
