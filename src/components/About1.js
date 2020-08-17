@@ -4,7 +4,7 @@ class About1 extends Component {
     render() {
         return (
             <div className ="About1">
-                <div className="container-fluid">
+                <div className="container">
                    
                     <p>
                     <h1>Kaushal</h1>

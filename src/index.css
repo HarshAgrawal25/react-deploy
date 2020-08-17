@@ -41,7 +41,7 @@ code {
 /* contact us start*/
 #contact {
 	padding: 100px 0 60px 0;
-	 background: linear-gradient(to right, #6372ff 0%, #10396F 100%); 
+	 background: linear-gradient(to bottom, #6372ff 0%, #10396F 100%); 
 	background-color: #10396F;
 
 }
@@ -303,6 +303,10 @@ code {
   /* Home ends */
 
   /* About1 start */
+  body{
+      margin:0;
+      padding: 0;
+  }
   
   .About1 p{
 
@@ -557,3 +561,11 @@ a {
   }
   
   /* kaushal ends */
+
+  /* Kau start */
+  #kau h1{
+    display: flex;
+    justify-content:center;
+    font-size: 40px;
+  }
+  /* Kau Ends */
