@@ -1,9 +1,9 @@
-import React, { useRef, useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
+import React, { useRef, useEffect } from "react";
+import { withRouter } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
-import gsap from 'gsap';
+import gsap from "gsap";
 
-const SidebarNav = props => {
+const SidebarNav = (props) => {
   let sidebarMenu = useRef(null);
   let sidebarMenuOverlay = useRef(null);
   let menuLayer = useRef(null);
@@ -17,15 +17,15 @@ const SidebarNav = props => {
       [sidebarMenuOverlay, menuLayer, sidebarMenu],
       {
         duration: 0,
-        x: '100%'
+        x: "100%",
       },
       {
         duration: 0.05,
-        x: '0%',
-        ease: 'power3.inOut',
+        x: "0%",
+        ease: "power3.inOut",
         stagger: {
-          amount: 0.5
-        }
+          amount: 0.5,
+        },
       }
     );
   }, []);
@@ -42,65 +42,70 @@ const SidebarNav = props => {
   return (
     <>
       <div
-        className="sidebarNavigationOverlay"
-        ref={el => (sidebarMenuOverlay = el)}
+        className="conatiner sidebarNavigationOverlay"
+        ref={(el) => (sidebarMenuOverlay = el)}
         onClick={() => setMenuState(false)}
       ></div>
       <div className="menu-wrapper">
-        <div className="menu-layer" ref={el => (menuLayer = el)}></div>
-        <nav className="sidebarNavigation" ref={el => (sidebarMenu = el)}>
+        <div className="menu-layer" ref={(el) => (menuLayer = el)}></div>
+        <nav className="sidebarNavigation" ref={(el) => (sidebarMenu = el)}>
           <div className="sidebar-top">
             <div className="links-wrapper">
-              
-            
-              <Link className="menu-link"  
-                    activeClass="active"
-                    to="home"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
+              <Link
+                className="menu-link"
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 home
               </Link>
-              <Link className="menu-link"  
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
+              <Link
+                className="menu-link"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 about
               </Link>
-              <Link className="menu-link"  
-                    activeClass="active"
-                    to="supporters"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
+              <Link
+                className="menu-link"
+                activeClass="active"
+                to="supporters"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Sponsors
               </Link>
-              <Link className="menu-link"  
-                    activeClass="active"
-                    to="events"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
+              <Link
+                className="menu-link"
+                activeClass="active"
+                to="events"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Events
               </Link>
               <Link
-                    className="menu-link"
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >
+                className="menu-link"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Contact
               </Link>
-              
             </div>
           </div>
           <div className="sidebar-bottom">

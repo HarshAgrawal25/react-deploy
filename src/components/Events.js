@@ -4,13 +4,13 @@ export default class Events extends Component {
   render() {
     return (
       <div id="events">
-        <div class="container">
-          <div classs="section-title">
-            <h1 align="center">EVENTS</h1>
+        <div className="container">
+          <div className="section-title">
+            <h2 align="center">EVENTS</h2>
           </div>
           <div className="row">
             <div className="col-md-12 align-self-center">
-              <p className="contnt">
+              <p className="contnt" align="justify">
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
                 of Shri Vaishnav Shaikshanik awam Parmarthik Nyas, Indore (M.P.)
                 is organizing a National Level Computer ociety of India
@@ -34,9 +34,7 @@ export default class Events extends Component {
             {/* card 1 */}
             <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
               <div className="card card-custom bg-white border-white border-0">
-                <div className="card-custom-img ">
-                  <p>1</p>
-                </div>
+                <div className="card-custom-img ">{/* <p>1</p> */}</div>
                 <div className="card-custom-avatar">
                   <div class="service-icon">
                     <span>
@@ -70,11 +68,17 @@ export default class Events extends Component {
             </div>
 
             {/* price money */}
-            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
-              <p>
-                Attractive prices worth &#8377; 1 Lakh and Internship offers and
-                many more
-              </p>
+            <div className="square col-sm-12 col-md-6 col-lg-4 pb-3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <div className="price">
+                <h3 align="center">Price</h3>
+                <p >
+                  Attractive prices worth &#8377; 1 Lakh and Internship offers
+                  and many more
+                </p>
+              </div>
             </div>
             {/* card 2 */}
             <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
@@ -214,8 +218,6 @@ export default class Events extends Component {
                 </div>
               </div>
             </div>
-
-           
           </div>
           <br />
           <br />

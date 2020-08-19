@@ -1,100 +1,111 @@
-import Carousel from 'react-bootstrap/Carousel'  
+import React, { Component } from "react";
 
-import React, { Component } from 'react'  
-
-export class BootstrapGallery extends Component {  
-        render() {  
-                return (  
-                        <div>  
-                         <div class='container' >  
-                          <div className="row title" style={{ marginBottom: "50px" }} >  
-                          <div class="col-sm-12 btn btn-warning">  
-                          
-                         </div>  
-                         </div>  
-                         </div>  
-                         <div className='container-fluid' >  
-                         <Carousel interval={2500} keyboard={false} pauseOnHover={true}>  
-                         <Carousel.Item style={{'height':"500px"}}  >  
-                         <img style={{'height':"500px"}}  
-                         className="d-block w-50"  
-                        src={'images/gallery/2.jpg'}  />  
-                           <Carousel.Caption>  
-                             <h3> </h3>  
-                                 </Carousel.Caption>  
-                                 </Carousel.Item  >  
-
-                                 <Carousel.Item style={{'height':"500px"}}>  
-                                 <img style={{'height':"500px"}}  
-                                   className="d-block w-50"  
-                                    src={'images/gallery/1.jpg'}    />  
-                                       <Carousel.Caption>  
-                                   <h3></h3>  
-                                      </Carousel.Caption>  
-                                         </Carousel.Item> 
-
-                                       <Carousel.Item style={{'height':"500px"}}>  
-                                       <img style={{'height':"500px"}}  
-                                        className="d-block w-50"  
-                                         src={'images/gallery/3.jpg'}   />  
-                                        <Carousel.Caption>  
-                                          <h3></h3>  
-                                          </Carousel.Caption>  
-                                         </Carousel.Item>  
-
-                                         <Carousel.Item style={{'height':"500px"}}>  
-                                 <img style={{'height':"500px"}}  
-                                   className="d-block w-50"  
-                                    src={'images/gallery/4.jpg'}    />  
-                                       <Carousel.Caption>  
-                                   <h3></h3>  
-                                      </Carousel.Caption>  
-                                         </Carousel.Item>
-
-                                         <Carousel.Item style={{'height':"500px"}}>  
-                                 <img style={{'height':"500px"}}  
-                                   className="d-block w-50"  
-                                    src={'images/gallery/5.jpg'}    />  
-                                       <Carousel.Caption>  
-                                   <h3></h3>  
-                                      </Carousel.Caption>  
-                                         </Carousel.Item>
-
-                                         <Carousel.Item style={{'height':"500px"}}>  
-                                 <img style={{'height':"00px"}}  
-                                   className="d-block w-50"  
-                                    src={'images/gallery/6.jpg'} 
-                                       />  
-                                       <Carousel.Caption>  
-                                   <h3></h3>  
-                                      </Carousel.Caption>  
-                                         </Carousel.Item>
-
-                                         <Carousel.Item style={{'height':"500px"}}>  
-                                 <img style={{'height':"500px"}}  
-                                   className="d-block w-50"  
-                                    src={'images/gallery/7.jpg'}    />  
-                                       <Carousel.Caption>  
-                                   <h3></h3>  
-                                      </Carousel.Caption>  
-                                         </Carousel.Item>
-
-                                         <Carousel.Item style={{'height':"500px"}}>  
-                                 <img style={{'height':"500px"}}  
-                                   className="d-block w-50"  
-                                    src={'images/gallery/8.jpg'}    />  
-                                       <Carousel.Caption>  
-                                   <h3></h3>  
-                                      </Carousel.Caption>  
-                                         </Carousel.Item>
-
-
-
-                                        </Carousel>  
-                                </div>  
-                        </div>  
-                )  
-        }  
-}  
-
-export default BootstrapGallery
+export default class Gallery extends Component {
+  render() {
+    return (
+      <div class="container" id="carousel-example-generic">
+        <h1 align="center">
+          <br /> GALLERY{" "}
+        </h1>
+        <br />
+        <br />
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/1.jpg"
+                alt="Zero slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/2.jpg"
+                alt="main slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/3.jpg"
+                alt="first slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/4.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/5.jpg"
+                alt="Third slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/6.jpg"
+                alt="fourth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/7.jpg"
+                alt="fifth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 img-fluid"
+                src="/images/gallery/8.jpg"
+                alt="sixth slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    );
+  }
+}

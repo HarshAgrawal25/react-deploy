@@ -9,8 +9,8 @@ export default class Sponsors extends Component {
       <section id="supporters" class="section-with-bg wow fadeInUp">
 
       <div class="container">
-        <div class="section-header">
-          <h1 align = "center">SPONSORS <br/><br/></h1>
+        <div class="section-title">
+          <h2 align = "center">SPONSORS </h2>
         </div>
 
         <div class="row no-gutters supporters-wrap clearfix">
