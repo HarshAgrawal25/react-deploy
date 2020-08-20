@@ -4,14 +4,14 @@ class About1 extends Component {
   render() {
     return (
       <div id="about1">
-        <div className="background">
+        <div className="background" width="">
           <h1>Kaushal 2.0 </h1>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-8">
               <h2>About Kaushal</h2>
-              <p align="justify">
+              <p align="justify" className="py-lg-100px py-sm-0">
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
                 of Shri Vaishnav Shaikshanik Parmarthik Nyas, Indore (M.P.) is
                 organizing a National Level Computer Society of India
