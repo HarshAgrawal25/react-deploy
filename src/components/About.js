@@ -4,13 +4,13 @@ export default class About extends Component {
   render() {
     return (
       <div id="about">
-        <div className="section-title">
+        {/* <div className="section-title">
           <h2 align="center">
             <br />
             ABOUT KAUSHAL 2.0{" "}
           </h2>
-        </div>
-        <div className="container">
+        </div> */}
+        {/* <div className="container">
           <div className="row">
             <div className="col align-self-center" align="justify">
               <p>
@@ -37,7 +37,7 @@ export default class About extends Component {
               <br />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="section-title">
           <h2 align="center"> ABOUT SVVV </h2>
         </div>

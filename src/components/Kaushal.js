@@ -11,7 +11,7 @@ class Kaushal extends Component {
       <div id="kaushal">
       <div className="heading">
         <svg viewBox="0 0 1350 600">
-          <text text-anchor="end" x="800" y="550" fill="transparent">
+          <text className="text"  text-anchor="end" x="1220" y="450" fill="transparent">
             Kaushal 2.0
           </text>
         </svg>

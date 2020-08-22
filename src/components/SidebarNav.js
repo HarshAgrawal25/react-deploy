@@ -63,6 +63,7 @@ const SidebarNav = (props) => {
                 home
               </Link>
               <Link
+             
                 className="menu-link"
                 activeClass="active"
                 to="about"

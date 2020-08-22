@@ -14,14 +14,17 @@ import About1 from "./About1";
 import Header from "./Header";
 import SidebarNav from "./SidebarNav";
 import Footer from "./Footer";
-
+import ScrollUp from "./ScrollUp";
+import RightSideBar from './RightSideBar/index'
+import Faq from "./Faq";
 const Complete = () => {
   let [menuState, setMenuState] = useState(false);
   return (
     <div>
       <BrowserRouter>
-        <Header menuState={menuState} setMenuState={setMenuState} />
-        <SidebarNav menuState={menuState} setMenuState={setMenuState} />
+        {/* <Header menuState={menuState} setMenuState={setMenuState} />
+        <SidebarNav menuState={menuState} setMenuState={setMenuState} /> */}
+        <RightSideBar />
         <Home />
         <About1 /> 
         <About />
@@ -30,8 +33,10 @@ const Complete = () => {
         {/* <Gallery /> */}
         {/* <Poster /> */}
         <Events />
+        <Faq />
         <Contact />
         <Footer />
+        <ScrollUp />
       </BrowserRouter>
     </div>
   );

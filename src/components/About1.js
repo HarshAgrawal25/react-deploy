@@ -4,13 +4,22 @@ class About1 extends Component {
   render() {
     return (
       <div id="about1">
-        <div className="background" width="">
+        {/* <div className="background" width="">
           <h1>Kaushal 2.0 </h1>
-        </div>
+        </div> */}
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-8">
-              <h2>About Kaushal</h2>
+              {/* <h2 style={{color:"red"}}>
+                
+                 About Kaushal
+                </h2> */}
+              
+                <h2 className="head col-sm-12">
+                  <br />
+                  ABOUT KAUSHAL 2.0
+                </h2>
+              
               <p align="justify" className="py-lg-100px py-sm-0">
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
                 of Shri Vaishnav Shaikshanik Parmarthik Nyas, Indore (M.P.) is

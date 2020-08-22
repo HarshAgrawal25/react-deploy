@@ -14,15 +14,14 @@ export default class Events extends Component {
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
                 of Shri Vaishnav Shaikshanik awam Parmarthik Nyas, Indore (M.P.)
                 is organizing a National Level Computer ociety of India
-                Convention– “KAUSHAL-20” on the theme of “Recent Digital
-                Technology advancement” from 15/03/2019 to 16/03/2019. The
+                Convention– “KAUSHAL-2.0” on the theme of “Recent Digital
+                Technology advancement” from 14/10/2020 to 15/10/2020. The
                 objective of this National Convention is to provide a phenomenal
                 opportunity for the students to showcase their technical skills,
                 ideas and/or implementations as a cherishing outcome in the
                 contribution to the Nation’s Dream of IT superpower globally.The
-                convention will consisted of 07 events such as workshops,
-                research articles, project contest, key note addresses, web &
-                mobile design application, programming contest & technical quiz
+                convention will consisted of 05 events such as 
+                research publications and articles, project contest, programming contest & technical quiz
                 contest. The convention will provide fruitful knowledge
                 dissemination and cultural exchange among students from various
                 parts of the country.
@@ -52,18 +51,13 @@ export default class Events extends Component {
                   /> */}
                 </div>
                 <div className="card-body">
-                  <h4 className="card-title">TECHNICAL QUIZ</h4>
-                  <p className="card-text">
-                    Card has minimum height set but will expand if more space is
-                    needed for card body content. You can use Bootstrap to align
-                    multiple cards nicely in a row.
+                  <h4 className="card-title" >TECHNICAL QUIZ</h4>
+                  <p className="card-text" align="justify">
+                  The quizzes are all restricted in information technology, information and communication 
+                  technology, and computer science.Participants has to answer the question correctly in given time.
                   </p>
                 </div>
-                <div className="card-footer bg-transparent border-light">
-                  <a href="#" className="btn btn-primary">
-                    Enroll
-                  </a>
-                </div>
+                <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
 
@@ -74,7 +68,7 @@ export default class Events extends Component {
               <span></span>
               <div className="price">
                 <h3 align="center">Price</h3>
-                <p >
+                <p>
                   Attractive prices worth &#8377; 1 Lakh and Internship offers
                   and many more
                 </p>
@@ -102,16 +96,12 @@ export default class Events extends Component {
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">PROJECT CONTEST</h4>
-                  <p className="card-text">
+                  <p className="card-text" align="justify">
                     In this event UG/PG students have to present their project
                     along with running code.
                   </p>
                 </div>
-                <div className="card-footer bg-transparent border-light">
-                  <a href="#" className="btn btn-primary">
-                    Enroll
-                  </a>
-                </div>
+                <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
 
@@ -137,16 +127,12 @@ export default class Events extends Component {
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">PROGRAMMING CONTEST</h4>
-                  <p className="card-text">
+                  <p className="card-text" align="justify">
                     Participant has to write code for a given problem.Problem
                     statement will be given on spot to the participants.
                   </p>
                 </div>
-                <div className="card-footer bg-transparent border-light">
-                  <a href="#" className="btn btn-primary">
-                    Enroll
-                  </a>
-                </div>
+                <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
 
@@ -172,16 +158,12 @@ export default class Events extends Component {
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">IDEA POSTER AND STARTUP</h4>
-                  <p className="card-text">
+                  <p className="card-text" align="justify">
                     Participant has to show case idea for their poster and show
                     their poster making ability
                   </p>
                 </div>
-                <div className="card-footer bg-transparent border-light">
-                  <a href="#" className="btn btn-primary">
-                    Enroll
-                  </a>
-                </div>
+                <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
             {/* card 2 */}
@@ -205,17 +187,13 @@ export default class Events extends Component {
                   <h4 className="card-title">
                     RESEARCH PUBLICATION & ARTICLES
                   </h4>
-                  <p className="card-text">
+                  <p className="card-text" align="justify">
                     In this event participants prepare/create Research
                     Publications & Articles.It should be submitted on given
                     date.
                   </p>
                 </div>
-                <div className="card-footer bg-transparent border-light">
-                  <a href="#" className="btn btn-primary">
-                    Enroll
-                  </a>
-                </div>
+                <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
           </div>
