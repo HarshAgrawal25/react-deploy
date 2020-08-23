@@ -35,6 +35,37 @@ const RightSection = () => {
             About
           </Link>
         </li>
+
+        <li>
+          <Link
+            onClick={() => setIsShowSidebar(false)}
+            to="events"
+            spy={true}
+            smooth={true}
+          >
+            Events
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={() => setIsShowSidebar(false)}
+            to="instruction"
+            spy={true}
+            smooth={true}
+          >
+            Registration
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={() => setIsShowSidebar(false)}
+            to="carousel-generic"
+            spy={true}
+            smooth={true}
+          >
+            Gallery
+          </Link>
+        </li>
         <li>
           <Link
             onClick={() => setIsShowSidebar(false)}
@@ -45,27 +76,8 @@ const RightSection = () => {
             Sponsors
           </Link>
         </li>
+        
         <li>
-          <Link
-            onClick={() => setIsShowSidebar(false)}
-            to="events"
-            spy={true}
-            smooth={true}
-          >
-            Events
-          </Link>
-          </li>
-          <li>
-          <Link
-            onClick={() => setIsShowSidebar(false)}
-            to="faq"
-            spy={true}
-            smooth={true}
-          >
-            F.A.Q
-          </Link>
-          </li>
-          <li>
           <Link
             onClick={() => setIsShowSidebar(false)}
             to="contact"

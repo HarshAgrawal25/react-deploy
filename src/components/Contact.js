@@ -157,7 +157,7 @@ class Contact extends Component {
           <div className="col-md-12" align="center">
             <div className="row  justify-content-center">
               <div className="social">
-                <ul>
+                <div className="ul">
                   <li>
                     <a href="">
                       <i className="fa fa-facebook"></i>
@@ -173,7 +173,7 @@ class Contact extends Component {
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
-                </ul>
+                </div>
               </div>
             </div>
           </div>

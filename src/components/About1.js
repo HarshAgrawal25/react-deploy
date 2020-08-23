@@ -9,17 +9,21 @@ class About1 extends Component {
         </div> */}
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-8">
+            <h2 className="head-phone col-sm-12">
+              <br />
+              ABOUT KAUSHAL 2.0
+            </h2>
+            <div className="col-sm-12 col-md-8 order-2 order-lg-1">
               {/* <h2 style={{color:"red"}}>
                 
                  About Kaushal
                 </h2> */}
-              
-                <h2 className="head col-sm-12">
-                  <br />
-                  ABOUT KAUSHAL 2.0
-                </h2>
-              
+
+              <h2 className="head col-sm-12">
+                <br />
+                ABOUT KAUSHAL 2.0
+              </h2>
+
               <p align="justify" className="py-lg-100px py-sm-0">
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
                 of Shri Vaishnav Shaikshanik Parmarthik Nyas, Indore (M.P.) is
@@ -29,8 +33,10 @@ class About1 extends Component {
                 objective of this National Convention is to provide a phenomenal
                 opportunity for the students to showcase their technical skills,
                 ideas and or implementations as a cherishing outcome in the
-                contribution to the Nation’s Dream of IT superpower globally.The
-                convention will consisted of 09 events such as workshops,
+                contribution to the Nation’s Dream of IT superpower globally.
+              </p>
+              <p align="justify" className="mb-5 pb-5">
+                The convention will consisted of 09 events such as workshops,
                 research articles, project contest, key note addresses, web &
                 mobile design application, programming contest,idea poster and
                 startup, technical treasure hunt & technical quiz contest. The
@@ -41,11 +47,17 @@ class About1 extends Component {
                 many more).
               </p>
             </div>
-            <div className="camera col-sm-12 col-md-4 d-flex justify-content-end">
+            <div className="camera col-sm-12 col-md-4 d-flex justify-content-end order-1 order-lg-2">
               <img
                 className="aws img-fluid"
-                src="/images/About/camera.png"
+                src="/images/About/camera2.png"
                 alt="camera"
+              ></img>
+              <img
+                className="aws-phone img fluid"
+                align="center"
+                src="/images/About/camera3.jpg"
+                alt="camera-phone"
               ></img>
             </div>
           </div>

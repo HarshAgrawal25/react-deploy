@@ -39,7 +39,7 @@ export default class About extends Component {
           </div>
         </div> */}
         <div className="section-title">
-          <h2 align="center"> ABOUT SVVV </h2>
+          <h2 align="center" className="my-5"> ABOUT SVVV </h2>
         </div>
         <div className="container">
           <div className="row">
@@ -70,7 +70,7 @@ export default class About extends Component {
           <div className="row">
             <div className="col align-self-center">
               <br /> <br />
-              <h5 align="justify">
+              <p align="justify">
                 {" "}
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya is a private university
                 established under Madhya Pradesh Niji Vishwavidyalaya ( Sthapana
@@ -83,7 +83,7 @@ export default class About extends Component {
                 being at the helm, the University shall promote endurance,
                 excellence, fairness, honesty and transparency as its core
                 values.{" "}
-              </h5>
+              </p>
               <p align="justify">
                 Some of the objectives of the University are as under:
               </p>
@@ -115,7 +115,7 @@ export default class About extends Component {
           </div>
         </div>
         <div className="section-title">
-          <h2 align="center">
+          <h2 align="center" className="my-5">
             ABOUT INDORE <br />
           </h2>
         </div>

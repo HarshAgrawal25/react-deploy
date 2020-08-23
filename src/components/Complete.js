@@ -17,6 +17,10 @@ import Footer from "./Footer";
 import ScrollUp from "./ScrollUp";
 import RightSideBar from './RightSideBar/index'
 import Faq from "./Faq";
+import Gallery1 from "./Gallery1";
+import Posters from "./Posters";
+import Contact1 from "./Contact1";
+import Sponsors1 from "./Sponsors1";
 const Complete = () => {
   let [menuState, setMenuState] = useState(false);
   return (
@@ -28,13 +32,19 @@ const Complete = () => {
         <Home />
         <About1 /> 
         <About />
+        <Events />
+        <Posters />
         <Instruction />
-        <Sponsors />
+        <Gallery1 />
+        {/* <Sponsors /> */}
+        <Sponsors1 />
+        
+        
         {/* <Gallery /> */}
         {/* <Poster /> */}
-        <Events />
+        
         <Faq />
-        <Contact />
+        <Contact1 />
         <Footer />
         <ScrollUp />
       </BrowserRouter>

@@ -3,244 +3,208 @@ import React, { Component } from "react";
 export default class Faq extends Component {
   render() {
     return (
-      <div id="faq" className="row accordion-gradient-bcg d-flex justify-content-center">
-        <div class="col-md-10 col-xl-6 py-5">
-          <div
-            class="accordion md-accordion accordion-2"
-            id="accordionEx7"
-            role="tablist"
-            aria-multiselectable="true"
-          >
-            <div className="container">
-              <h2 align="center">F.A.Q. </h2>
-              <br />
-            </div>
-            <div class="card">
-              <div
-                class="card-header rgba-stylish-strong z-depth-1 mb-1"
-                role="tab"
-                id="heading1"
-              >
-                <a
-                  data-toggle="collapse"
-                  data-parent="#accordionEx7"
-                  href="#collapse1"
-                  aria-expanded="true"
-                  aria-controls="collapse1"
-                >
-                  <h5 class="mb-0 white-text text-uppercase font-thin">
-                    Who can participate in kaushal-2.0
-                    <i class="fa fa-angle-down rotate-icon"></i>
-                  </h5>
-                </a>
-              </div>
+      <div id="faq" className="container">
+        <div className="section-title">
+            <h2 align="center">F.A.Q</h2>
+          </div>
+       
 
-              <div
-                id="collapse1"
-                class="collapse show"
-                role="tabpanel"
-                aria-labelledby="heading1"
-                data-parent="#accordionEx7"
-              >
-                <div class="card-body mb-1 rgba-grey-light white-text">
-                  <p>
-                    Students pursuing Btech, BE, Mtech, ME, BCA, MCA, Bsc &
-                    other revalent branch(CS, IT or EC) intrested participants
-                    are eligible.
-                  </p>
+        <div className="row">
+          <div className="col-lg-9 mx-auto">
+            <div id="accordionExample" className="accordion shadow">
+              <div className="card">
+                <div
+                  id="headingOne"
+                  className="card-header bg-white shadow-sm border-0"
+                >
+                  <h6 className="mb-0 font-weight-bold">
+                    <div
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                      className="d-block position-relative text-dark  collapsible-link py-2 head"
+                    >
+                      Who can participate in kaushal-2.0
+                    </div>
+                  </h6>
+                </div>
+                <div
+                  id="collapseOne"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                  className="collapse show"
+                >
+                  <div className="card-body p-5  ">
+                    <p className="font-weight content">
+                      Students pursuing Btech, BE, Mtech, ME, BCA, MCA, Bsc &
+                      other revalent branch(CS, IT or EC) intrested participants
+                      are eligible.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <br />
 
-            <div class="card">
-              <div
-                class="card-header rgba-stylish-strong z-depth-1 mb-1"
-                role="tab"
-                id="heading2"
-              >
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-parent="#accordionEx7"
-                  href="#collapse2"
-                  aria-expanded="false"
-                  aria-controls="collapse2"
+              <div className="card">
+                <div
+                  id="headingTwo"
+                  className="card-header bg-white shadow-sm border-0"
                 >
-                  <h5 class="mb-0 white-text text-uppercase font-thin">
-                    Can a student participate in multiple events ?{" "}
-                    <i class="fa fa-angle-down rotate-icon"></i>
-                  </h5>
-                </a>
-              </div>
-
-              <div
-                id="collapse2"
-                class="collapse"
-                role="tabpanel"
-                aria-labelledby="heading2"
-                data-parent="#accordionEx7"
-              >
-                <div class="card-body mb-1 rgba-grey-light white-text">
-                  <p>
-                    Yes. It depends on student in how many contest he/she had
-                    register. For Each Contest student has to register again .
-                  </p>
+                  <h6 className="mb-0 font-weight-bold">
+                    <div
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
+                    >
+                      Can a student participate in multiple events ?
+                    </div>
+                  </h6>
+                </div>
+                <div
+                  id="collapseTwo"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                  className="collapse"
+                >
+                  <div className="card-body p-5">
+                    <p className="font-weight-light m-0">
+                      Yes. It depends on student in how many contest he/she had
+                      register. For Each Contest student has to register again .
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <br />
 
-            <div class="card">
-              <div
-                class="card-header rgba-stylish-strong z-depth-1 mb-1"
-                role="tab"
-                id="heading3"
-              >
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-parent="#accordionEx7"
-                  href="#collapse3"
-                  aria-expanded="false"
-                  aria-controls="collapse3"
+              <div className="card">
+                <div
+                  id="headingThree"
+                  className="card-header bg-white shadow-sm border-0"
                 >
-                  <h5 class="mb-0 white-text text-uppercase font-thin">
-                    How can i register for kaushal-20{" "}
-                    <i class="fa fa-angle-down rotate-icon"></i>
-                  </h5>
-                </a>
-              </div>
-
-              <div
-                id="collapse3"
-                class="collapse"
-                role="tabpanel"
-                aria-labelledby="heading3"
-                data-parent="#accordionEx7"
-              >
-                <div class="card-body mb-1 rgba-grey-light white-text">
-                  <p>
-                    Read the Registration Instruction carefully and If cannot
-                    then contact any Student Co-ordinator.
-                  </p>
+                  <h6 className="mb-0 font-weight-bold">
+                    <div
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
+                    > 
+                      How can i register for kaushal-20
+                    </div>
+                  </h6>
+                </div>
+                <div
+                  id="collapseThree"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                  className="collapse"
+                >
+                  <div className="card-body p-5">
+                    <p className="font-weight-light m-0">
+                      Read the Registration Instruction carefully and If cannot
+                      then contact any Student Co-ordinator.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <br />
 
-            <div class="card">
-              <div
-                class="card-header rgba-stylish-strong z-depth-1 mb-1"
-                role="tab"
-                id="heading3"
-              >
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-parent="#accordionEx7"
-                  href="#collapse3"
-                  aria-expanded="false"
-                  aria-controls="collapse3"
+              <div className="card">
+                <div
+                  id="headingFour"
+                  className="card-header bg-white shadow-sm border-0"
                 >
-                  <h5 class="mb-0 white-text text-uppercase font-thin">
-                    How will I get Certificate if i am of another city/state ?{" "}
-                    <i class="fa fa-angle-down rotate-icon"></i>
-                  </h5>
-                </a>
-              </div>
-
-              <div
-                id="collapse3"
-                class="collapse"
-                role="tabpanel"
-                aria-labelledby="heading3"
-                data-parent="#accordionEx7"
-              >
-                <div class="card-body mb-1 rgba-grey-light white-text">
-                  <p>
-                    Please provide your exact details to any of student
-                    co-ordinator or office bearer member.
-                  </p>
+                  <h6 className="mb-0 font-weight-bold">
+                    <div
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
+                    >
+                      How will I get Certificate if i am of another city/state ?
+                    </div>
+                  </h6>
+                </div>
+                <div
+                  id="collapseFour"
+                  aria-labelledby="headingFour"
+                  data-parent="#accordionExample"
+                  className="collapse"
+                >
+                  <div className="card-body p-5">
+                    <p className="font-weight-light m-0">
+                      Please provide your exact details to any of student
+                      co-ordinator or office bearer member.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <br />
 
-            <div class="card">
-              <div
-                class="card-header rgba-stylish-strong z-depth-1 mb-1"
-                role="tab"
-                id="heading3"
-              >
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-parent="#accordionEx7"
-                  href="#collapse3"
-                  aria-expanded="false"
-                  aria-controls="collapse3"
+              <div className="card">
+                <div
+                  id="headingFive"
+                  className="card-header bg-white shadow-sm border-0"
                 >
-                  <h5 class="mb-0 white-text text-uppercase font-thin">
-                    How can I reach to SVVV Campus{" "}
-                    <i class="fa fa-angle-down rotate-icon"></i>
-                  </h5>
-                </a>
-              </div>
-
-              <div
-                id="collapse3"
-                class="collapse"
-                role="tabpanel"
-                aria-labelledby="heading3"
-                data-parent="#accordionEx7"
-              >
-                <div class="card-body mb-1 rgba-grey-light white-text">
-                  <p>
-                    You Can reach university campus by using our bus service .
-                    It runs from various location throught Indore, Ujjain, Dewas
-                    . For other student (except svvv student) buses will also be
-                    running from various location
-                  </p>
+                  <h6 className="mb-0 font-weight-bold">
+                    <div
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                      className="d-block position-relative collapsed text-dark  collapsible-link py- head"
+                    >
+                      How can I reach to SVVV Campus
+                    </div>
+                  </h6>
+                </div>
+                <div
+                  id="collapseFive"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                  className="collapse"
+                >
+                  <div className="card-body p-5">
+                    <p className="font-weight-light m-0">
+                      RYou Can reach university campus by using our bus service
+                      . It runs from various location throught Indore, Ujjain,
+                      Dewas . For other student (except svvv student) buses will
+                      also be running from various location
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <br />
 
-            <div class="card">
-              <div
-                class="card-header rgba-stylish-strong z-depth-1 mb-1"
-                role="tab"
-                id="heading3"
-              >
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-parent="#accordionEx7"
-                  href="#collapse3"
-                  aria-expanded="false"
-                  aria-controls="collapse3"
+              <div className="card">
+                <div
+                  id="headingSix"
+                  className="card-header bg-white shadow-sm border-0"
                 >
-                  <h5 class="mb-0 white-text text-uppercase font-thin">
-                    Is Offline/On Spot Registration will available{" "}
-                    <i class="fa fa-angle-down rotate-icon"></i>
-                  </h5>
-                </a>
-              </div>
-
-              <div
-                id="collapse3"
-                class="collapse"
-                role="tabpanel"
-                aria-labelledby="heading3"
-                data-parent="#accordionEx7"
-              >
-                <div class="card-body mb-1 rgba-grey-light white-text">
-                  <p>
-                    Yes , you have to visit svvv campus and reach out to any
-                    student co-ordinator or office bearers members , also you
-                    can visit cs department for more details .
-                  </p>
+                  <h6 className="mb-0 font-weight-bold">
+                    <div
+                      data-toggle="collapse"
+                      data-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
+                    >
+                      Is Offline/On Spot Registration will available
+                    </div>
+                  </h6>
+                </div>
+                <div
+                  id="collapseSix"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                  className="collapse"
+                >
+                  <div className="card-body p-5">
+                    <p className="font-weight-light m-0">
+                      Yes , you have to visit svvv campus and reach out to any
+                      student co-ordinator or office bearers members , also you
+                      can visit cs department for more details .
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

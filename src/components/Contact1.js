@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../index.css";
-class Contact extends Component {
+class Contact1 extends Component {
   render() {
     return (
       <div id="contact">
@@ -10,8 +10,8 @@ class Contact extends Component {
             <h2>Contact Us</h2>
           </div>
           <div className="row justify-content-md-center">
-            <div className="col-md-6   justify-content-center">
-              <div className="contact-item">
+            <div className="col-sm-12 col-md-4 order-1 order-lg-1 justify-content-center mx-auto">
+              <div className="contact-item one">
                 <h3>CSI-SB Co-ordinator</h3>
                 <p>
                   <span>
@@ -19,7 +19,7 @@ class Contact extends Component {
                   </span>
                 </p>
               </div>
-              <div className="contact-item">
+              <div className="contact-item one">
                 <p>
                   <span>
                     <i className="fa fa-phone"></i>
@@ -27,7 +27,7 @@ class Contact extends Component {
                   </span>
                 </p>
               </div>
-              <div className="contact-item">
+              <div className="contact-item one">
                 <p>
                   <span>
                     <i className="fa fa-phone"></i>
@@ -35,7 +35,7 @@ class Contact extends Component {
                   </span>
                 </p>
               </div>
-              <div className="contact-item">
+              <div className="contact-item one">
                 <p>
                   <span>
                     <i className="fa fa-envelope-o"></i>
@@ -49,60 +49,15 @@ class Contact extends Component {
               <br />
               <br />
               <br />
-
+            
               {/* Student contact */}
-              <div className="contact-item">
-                <h3>Student Co-ordinator</h3>
-                <p>
-                  <span>
-                    <i className="fa fa-user"></i>Ankur Singh Tomar
-                  </span>
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-phone"></i>
-                    <a href="tel: 8871003213">8871003213</a>
-                  </span>
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-user"></i>Kanhaiya Sharma
-                  </span>
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-phone"></i>
-                    <a href="tel: 9617138985">9617138985</a>
-                  </span>
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-user"></i>Taher Kapedia
-                  </span>
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-phone"></i>
-                    <a href="tel: 8965086788">8965086788</a>
-                  </span>
-                </p>
-              </div>
+              
               {/* student contact ends */}
             </div>
             {/* part 1 ends */}
             {/* Contact Info */}
             {/* part 2 */}
-            <div className="col-12 col-sm-6 ">
+            <div className="col-sm-12 col-md-4 order-3 order-lg-2 mx-auto">
               <div className="text-center">
                 <h3>Drop us a line</h3>
                 <form name="sentMessage" id="contactForm" noValidate>
@@ -151,13 +106,61 @@ class Contact extends Component {
                 {/* part 2 ends */}
               </div>
             </div>
+            <div className="col-sm-12 col-md-4 order-2 order-lg-3 ">
+            <div className="contact-item three ">
+                <h3>Student Co-ordinator</h3>
+                <p>
+                  <span>
+                    <i className="fa fa-user"></i>Ankur Singh Tomar
+                  </span>
+                </p>
+              </div>
+              <div className="contact-item three">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i>
+                    <a href="tel: 8871003213">8871003213</a>
+                  </span>
+                </p>
+              </div>
+              <div className="contact-item three">
+                <p>
+                  <span>
+                    <i className="fa fa-user"></i>Kanhaiya Sharma
+                  </span>
+                </p>
+              </div>
+              <div className="contact-item three">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i>
+                    <a href="tel: 9617138985">9617138985</a>
+                  </span>
+                </p>
+              </div>
+              <div className="contact-item three">
+                <p>
+                  <span>
+                    <i className="fa fa-user"></i>Taher Kapedia
+                  </span>
+                </p>
+              </div>
+              <div className="contact-item three">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i>
+                    <a href="tel: 8965086788">8965086788</a>
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
           {/* socila icons */}
 
           <div className="col-md-12" align="center">
             <div className="row  justify-content-center">
               <div className="social">
-                <ul>
+                <div className="ul">
                   <li>
                     <a href="">
                       <i className="fa fa-facebook"></i>
@@ -173,7 +176,7 @@ class Contact extends Component {
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
-                </ul>
+                  </div>
               </div>
             </div>
           </div>
@@ -183,4 +186,4 @@ class Contact extends Component {
     );
   }
 }
-export default Contact;
+export default Contact1;

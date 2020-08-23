@@ -63,7 +63,15 @@ code {
 	font-weight: 700;
 }
 #contact .contact-item{
-	margin-left: 30px;
+  margin-left: 30px;
+  padding-left: 0px;
+}
+#contact .one{
+  margin-left: 30px;
+  padding-left: 0px;
+}
+#contact .three{
+  margin-left: 60px;
 }
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
@@ -163,8 +171,13 @@ color: #777;
 	margin-top: 50px;
 	text-align: center;
 }
-
-#contact .social ul li {
+#contact .social .ul{
+  margin-left: 0px;
+  padding-left: 0px;
+  align-items: center;
+  justify-content: center;
+}
+#contact .social .ul li {
   
 	display: inline-block;
 	margin: 0 15px;
@@ -197,10 +210,16 @@ color: #777;
 
 
 /* Instruction start */
-.Instruction {
-	font-family: sans-serif;
+
+#instruction {
+	font-family: 'Alata', sans-serif;
 	text-align: center;
   }
+#instruction .heading{
+  font-weight: 600;
+  font-size: 40px;
+}
+
   /* Instruction end */
 
   
@@ -480,11 +499,8 @@ color: #777;
       margin:0;
       padding: 0;
   }
-  
   #about p{
-    
     font-family: 'Alata', sans-serif;
-    
   }
 
   .About  h1{
@@ -497,10 +513,13 @@ color: #777;
   #about1{
     /* background-color: #06064d; */
     background-color:#14151b;
-    
+    display: flex;
    
     background-size: 50% auto;
     }
+  #about1 p{
+    font-family: 'Alata', sans-serif;
+  }
    
   #about1:after{
     height: 100%;
@@ -544,15 +563,26 @@ color: #777;
     }
     #about1 .camera .aws{  
       position: relative;
-      
       z-index: 50;
-     margin-right: 10px;
+      margin-right: 10px;
+      margin-top: 0;
+      padding-top: 0;
+    
+      
     }
-
+    #about1 .camera .aws-phone{
+      position: relative;
+      height: 100px;
+      width: 130px;
+      display: none;
+    }
     #about1 .head{
       font-weight: 700;
       font-size: 6vh;
       padding-bottom: 20px;
+    }
+    #about1 .head-phone{
+     display: none;
     }
   
     #about1 h2::after {
@@ -566,6 +596,7 @@ color: #777;
       margin-left: -30px;
       left: 25%;
     }
+    
   /* About1 ends */
 
   /* Sidebar Nav start */
@@ -965,52 +996,195 @@ a {
 
 
   /* Faq starts */
-  #faq {
+  
+  
+  #faq .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  #faq  {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  #faq .head{
+    cursor: pointer;
+  }
+  #faq .content{
+    padding-top:0px;
+    
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  #faq .collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+  }
+
+  
+  /* Vertical line */
+  #faq .collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  #faq .collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+  }
+  
+  #faq .collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+  }
+  /* faq ends */
+
+
+  /* gallery starts */
+#carousel-generic{
+ 
+  padding-top: 50px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+#carousel-generic .owl-theme{
+  margin-top: 50px;
+}
+  #carousel-generic .alex{
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    }
+  
+  /* gallery ends */
+
+  /* posters start */
+  #carousel-example-generic {
+  max-height: 580px;
+  max-width: 680px;
+}
+.carousel {
+  max-height: 780px;
+  max-width: 680px;
+}
+  /* posters end */
+
+
+  /* sponsors1 start*/
+  #supporters {
     padding: 60px 0;
   }
   
-  #faq #faq-list {
-    padding: 0;
-    list-style: none;
+  #supporters .supporters-wrap {
+    border-top: 1px solid #e0e5fa;
+    border-left: 1px solid #e0e5fa;
+    margin-bottom: 30px;
   }
   
-  #faq #faq-list li {
-    border-bottom: 1px solid #ddd;
+  #supporters .supporter-logo {
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #e0e5fa;
+    border-bottom: 1px solid #e0e5fa;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    height: 160px;
   }
   
-  #faq #faq-list a {
-    padding: 18px 0;
-    display: block;
-    position: relative;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    padding-right: 20px;
+  #supporters .supporter-logo:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
   
-  #faq #faq-list i {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    top: 16px;
+  #supporters img {
+    transition: all 0.4s ease-in-out;
   }
+  /* sponsors1 end */
   
-  #faq #faq-list p {
-    margin-bottom: 20px;
+  
+  
+  @media (max-width: 437px) {
+    .section-title h2 {
+      font-size: 40px;
+      }
+      #contact .one{
+        margin-left: 70px;
+       
+      }
+      #contact .three{
+        margin-left: 70px;
+      }
+      #about1 .camera .aws{  
+        position: relative;
+      
+        z-index: 50;
+       margin-right: 10px;
+       display: none;
+      }
+      #about1 .camera .aws-phone{
+        position: relative;
+        margin-top: 50px;
+        margin-right: 24px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+        height: 150px;
+        width: 330px;
+        display: inherit;
+       
+      }
+      #about1 .head{
+        display: none;
+      }
+      #about1 .head-phone{
+        font-size: 40px;
+        align-items: center;
+        margin-top: 20px;
+        display: inherit;
+        padding-bottom:20px ;
+      }
+      #about1 h2::after {
+        position: absolute;
+        content: "";
+     background: rgba(255,255,255,.3);
+        height: 4px;
+        width: 60px;
+        bottom: 0;
+        margin-top: 80px;
+        margin-left: -30px;
+        align-items: center;
+
+        left: 50%;
+       
+      }
   }
-  
-  #faq #faq-list a.collapse {
-    color: #f82249;
-  }
-  
-  #faq #faq-list a.collapsed {
-    color: #000;
-  }
-  
-  #faq #faq-list a.collapsed i::before {
-    content: "\f055" !important;
-  }
-  
-  
-  /* faq ends */
+

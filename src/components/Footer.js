@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div align="center">
-              Designed And Developed CSI-SB Office Bearer
+              Designed And Developed by
             </div>
         )
     }
