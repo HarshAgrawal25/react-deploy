@@ -14,12 +14,13 @@ import Gallery1 from "./Gallery1";
 import Posters from "./Posters";
 import Contact1 from "./Contact1";
 import Sponsors1 from "./Sponsors1";
+
 const Complete = () => {
  
   return (
     <div>
       <BrowserRouter>
-     
+       
         <RightSideBar />
         <Home />
         <About1 />

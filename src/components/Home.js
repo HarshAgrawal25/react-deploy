@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import Navbar from "./Navbar";
 import Kaushal from "./Kaushal";
+
 class Home extends Component {
   render() {
     return (

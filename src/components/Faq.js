@@ -188,7 +188,7 @@ export default class Faq extends Component {
                       aria-controls="collapseSix"
                       className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
                     >
-                      Is Offline/On Spot Registration will available
+                    <p>  Is Offline/On Spot Registration</p> <p>will available</p>
                     </div>
                   </h6>
                 </div>
