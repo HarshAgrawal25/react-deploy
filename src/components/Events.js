@@ -35,7 +35,7 @@ export default class Events extends Component {
               <div className="card card-custom bg-white border-white border-0">
                 <div className="card-custom-img ">{/* <p>1</p> */}</div>
                 <div className="card-custom-avatar">
-                  <div class="service-icon">
+                  <div className="service-icon">
                     <span>
                       <i
                         className="fa fa-question fa-4x"
@@ -79,7 +79,7 @@ export default class Events extends Component {
               <div className="card card-custom bg-white border-white border-0">
                 <div className="card-custom-img"></div>
                 <div className="card-custom-avatar">
-                  <div class="service-icon">
+                  <div className="service-icon">
                     <span>
                       <i
                         className="fa fa-file-code-o fa-4x"
@@ -113,7 +113,7 @@ export default class Events extends Component {
               <div className="card card-custom bg-white border-white border-0">
                 <div className="card-custom-img"></div>
                 <div className="card-custom-avatar">
-                  <div class="service-icon">
+                  <div className="service-icon">
                     <span>
                       <i className="fa fa-code fa-4x" aria-hidden="true"></i>
                     </span>
@@ -141,7 +141,7 @@ export default class Events extends Component {
               <div className="card card-custom bg-white border-white border-0">
                 <div className="card-custom-img"></div>
                 <div className="card-custom-avatar">
-                  <div class="service-icon">
+                  <div className="service-icon">
                     <span>
                       <i
                         className="fa fa-lightbulb-o fa-4x"
@@ -171,7 +171,7 @@ export default class Events extends Component {
               <div className="card card-custom bg-white border-white border-0">
                 <div className="card-custom-img"></div>
                 <div className="card-custom-avatar">
-                  <div class="service-icon">
+                  <div className="service-icon">
                     <span>
                       <i className="fa fa-edit fa-4x" aria-hidden="true"></i>
                     </span>

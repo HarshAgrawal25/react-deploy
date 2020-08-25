@@ -56,7 +56,7 @@ export default class Faq extends Component {
                       data-target="#collapseTwo"
                       aria-expanded="false"
                       aria-controls="collapseTwo"
-                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
+                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head d-flex justify-content-start"
                     >
                       Can a student participate in multiple events ?
                     </div>

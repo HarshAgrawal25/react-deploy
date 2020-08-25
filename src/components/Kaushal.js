@@ -8,7 +8,7 @@ class Kaushal extends Component {
           <svg viewBox="0 0 1350 700">
             <text
               className="text"
-              text-anchor="end"
+              textAnchor="end"
               x="1220"
               y="450"
               fill="transparent"

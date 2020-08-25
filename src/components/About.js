@@ -4,40 +4,6 @@ export default class About extends Component {
   render() {
     return (
       <div id="about">
-        {/* <div className="section-title">
-          <h2 align="center">
-            <br />
-            ABOUT KAUSHAL 2.0{" "}
-          </h2>
-        </div> */}
-        {/* <div className="container">
-          <div className="row">
-            <div className="col align-self-center" align="justify">
-              <p>
-              Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
-              of Shri Vaishnav Shaikshanik awam Parmarthik Nyas, Indore (M.P.)
-              is organizing a National Level Computer Society of India
-              Convention– “KAUSHAL-20” on the theme of “Recent Digital
-              Technology advancement” from 19/03/2020 to 20/03/2020. The
-              objective of this National Convention is to provide a phenomenal
-              opportunity for the students to showcase their technical skills,
-              ideas and or implementations as a cherishing outcome in the
-              contribution to the Nation’s Dream of IT superpower globally.The
-              convention will consisted of 09 events such as workshops, research
-              articles, project contest, key note addresses, web & mobile design
-              application, programming contest,idea poster and startup,
-              technical treasure hunt & technical quiz contest. The convention
-              will provide fruitful knowledge dissemination and cultural
-              exchange among students from various parts of the country.
-              Attractive Prizes Worth Rs 1,00,000 (Exclusive Awards, Cash
-              Prizes, Speacial Recognitions, Recognized Certificates and many
-              more).
-              </p>
-              <br />
-              <br />
-            </div>
-          </div>
-        </div> */}
         <div className="section-title">
           <h2 align="center" className="my-5"> ABOUT SVVV </h2>
         </div>
@@ -46,21 +12,21 @@ export default class About extends Component {
             <div className="col-lg-4 col-md-6">
               <img
                 src="/images/About/svvv.jpg"
-                class="img-fluid  img-responsive"
+                className="img-fluid  img-responsive"
                 alt="img-responsive"
               />
             </div>
             <div className="col-lg-4 col-md-6">
               <img
                 src="/images/About/svvv2.jpg"
-                class="img-fluid img-responsive"
+                className="img-fluid img-responsive"
                 alt="img-responsive"
               />{" "}
             </div>
             <div className="col-lg-4 col-md-6">
               <img
                 src="/images/About/svvv3.jpg"
-                class="img-fluid img-responsive"
+                className="img-fluid img-responsive"
                 alt="img-responsive"
               />{" "}
             </div>
@@ -121,20 +87,20 @@ export default class About extends Component {
         </div>
         <div className="container">
           <div className="row">
-            <div class="col-lg-4 col-md-6">
-              <img src="/images/About/img_2.jpg" class="img-fluid" alt="svvv" />
+            <div className="col-lg-4 col-md-6">
+              <img src="/images/About/img_2.jpg" className="img-fluid" alt="svvv" />
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <img
                 src="/images/About/rajwada.jpg"
-                class="img-fluid"
+                className="img-fluid"
                 alt="svvv2"
               />{" "}
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <img
                 src="/images/About/tinchafall.jpg"
-                class="img-fluid"
+                className="img-fluid"
                 alt="svvv3"
               />{" "}
             </div>
@@ -143,7 +109,7 @@ export default class About extends Component {
 
         <div className="container">
           <div className="row">
-            <div class="col align-self-center">
+            <div className="col align-self-center">
               <ul>
                 <p>
                 <br />

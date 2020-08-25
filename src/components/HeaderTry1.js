@@ -11,7 +11,7 @@ const HeaderTry = (props) => {
         <div className="brand-icon">
           
             <span>
-              <img src="/images/Navbar/logo.png" className="head img-fluid" />
+              <img src="/images/Navbar/logo.png" className="head img-fluid" alt="logo" />
             </span>
           
         </div>

@@ -1029,10 +1029,12 @@ a {
   }
   #faq .content{
     padding-top:0px;
-    
+    display: flex;
+    content: wrap;
     margin-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    margin-right: px;
 
   }
 
@@ -1051,6 +1053,7 @@ a {
   
   /* Vertical line */
   #faq .collapsible-link::after {
+    margin-left: 30px;
     content: '';
     width: 2px;
     height: 14px;
