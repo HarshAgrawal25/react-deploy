@@ -15,12 +15,14 @@ import Posters from "./Posters";
 import Contact1 from "./Contact1";
 import Sponsors1 from "./Sponsors1";
 
+import {Switch , Route} from 'react-router-dom';
+import developed from './developed'
+
 const Complete = () => {
  
   return (
     <div>
       <BrowserRouter>
-       
         <RightSideBar />
         <Home />
         <About1 />
@@ -34,6 +36,10 @@ const Complete = () => {
         <Contact1 />
         <Footer />
         <ScrollUp />
+        {/* <Switch>
+                <Route exact path="/home" component={Home} />
+                <Route exact path="/developedBy" component={developed} />
+        </Switch> */}
       </BrowserRouter>
     </div>
   );

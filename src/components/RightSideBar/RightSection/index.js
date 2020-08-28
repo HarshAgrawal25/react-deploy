@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
-import BurgerButton from "../BurgerButton/BurgerButton";
+
 import { RightSideBarContext } from "..";
 import { Link } from "react-scroll";
+import BurgerButton1 from "../BurgerButton/BurgerButton1";
 
 const RightSection = () => {
   const { isShowSidebar, setIsShowSidebar } = useContext(RightSideBarContext);
@@ -12,13 +13,14 @@ const RightSection = () => {
       }`}
     >
       <div className="LeftSideBar__LeftSection__topWrapper">
-        <BurgerButton onClick={() => setIsShowSidebar(false)} />
+        <BurgerButton1 onClick={() => setIsShowSidebar(false)} />
       </div>
       <ul className="LeftSideBar__LeftSection__menuWrapper">
         <li>
           <Link
+            className="text"
             onClick={() => setIsShowSidebar(false)}
-            to="home"
+            to="header"
             spy={true}
             smooth={true}
           >
@@ -27,6 +29,7 @@ const RightSection = () => {
         </li>
         <li>
           <Link
+           className="text"
             onClick={() => setIsShowSidebar(false)}
             to="about1"
             spy={true}
@@ -38,6 +41,7 @@ const RightSection = () => {
 
         <li>
           <Link
+           className="text"
             onClick={() => setIsShowSidebar(false)}
             to="events"
             spy={true}
@@ -48,6 +52,7 @@ const RightSection = () => {
         </li>
         <li>
           <Link
+           className="text"
             onClick={() => setIsShowSidebar(false)}
             to="instruction"
             spy={true}
@@ -58,6 +63,7 @@ const RightSection = () => {
         </li>
         <li>
           <Link
+           className="text"
             onClick={() => setIsShowSidebar(false)}
             to="carousel-generic"
             spy={true}
@@ -68,6 +74,7 @@ const RightSection = () => {
         </li>
         <li>
           <Link
+           className="text"
             onClick={() => setIsShowSidebar(false)}
             to="supporters"
             spy={true}
@@ -79,6 +86,7 @@ const RightSection = () => {
         
         <li>
           <Link
+           className="text"
             onClick={() => setIsShowSidebar(false)}
             to="contact"
             spy={true}

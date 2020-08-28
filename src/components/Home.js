@@ -17,23 +17,35 @@ class Home extends Component {
                         <Kaushal />
                       </h1>
                     </div>
-                    <h2 className="my-3 offset-md-1">
-                      CSI NATIONAL CONCLAVE CUM SYMPOSIUM
+                    <h2 className="data my-3">
+                      CSI <span className="national">NATIONAL CONCLAVE</span> CUM <span className="sym">SYMPOSIUM</span>
                     </h2>
-                    <div className="mt-3">
+                    <div className="date ">
+                      <i className="fa fa-calendar" />
+                          <span className="date-text">
+                         14-15 October ,2020
+                         </span>
+                    </div>
+                    {/* <div className="date ml-4 pl-3">
+                      <i className=" fa fa-map-marker" />
+                      <span className="date-online-text">
+                        Online
+                      </span>
+                    </div> */}
+                    <div className="mt-3 ">
                       <Link
                         to="events"
                         smooth={true}
                         href=""
-                        className="btn btn-primary btn-lg rounded-pill offset-md-1 "
+                        className="btn btn-primary btn-lg rounded-pill"
                       >
                         Register Now<i className="fa fa-arrow-right"></i>
                       </Link>
                     </div>
                   </div>
-                  <div className="col-lg-6  order-1 order-lg-2 header-img my-lg-5 my-sm-0">
+                  <div className="blue col-lg-6  order-1 order-lg-2 header-img my-lg-5 my-sm-0">
                     <img
-                      src="images/Home/home.jpg"
+                      src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/home.jpg?alt=media&token=2d1e419b-aaa6-4849-a91f-6a32d8c9579b"
                       className="img-fluid"
                       alt="home img"
                     />
@@ -42,7 +54,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-         
+         <br /><br />
         </section>
         <Link href="#about" className="go-down"  to="about1"
                 spy={true}

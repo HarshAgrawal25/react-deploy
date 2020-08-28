@@ -11,7 +11,7 @@ const HeaderTry = (props) => {
         <div className="brand-icon">
           
             <span>
-              <img src="/images/Navbar/logo.png" className="head img-fluid" alt="logo" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/logo.png?alt=media&token=e1ff1629-901c-47c3-9dcd-1631092b7e54" className="head img-fluid" alt="logo" />
             </span>
           
         </div>

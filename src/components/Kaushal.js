@@ -9,9 +9,10 @@ class Kaushal extends Component {
             <text
               className="text"
               textAnchor="end"
-              x="1220"
-              y="450"
+              x="85%"
+              y="80%"
               fill="transparent"
+              
             >
               Kaushal 2.0
             </text>

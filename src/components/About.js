@@ -11,21 +11,21 @@ export default class About extends Component {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <img
-                src="/images/About/svvv.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/svvv.jpg?alt=media&token=61fca821-e285-453e-a41b-8e3709e0c5f2"
                 className="img-fluid  img-responsive"
                 alt="img-responsive"
               />
             </div>
             <div className="col-lg-4 col-md-6">
               <img
-                src="/images/About/svvv2.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/svvv2.jpg?alt=media&token=085752c9-758c-498b-9b63-1045a2a45242"
                 className="img-fluid img-responsive"
                 alt="img-responsive"
               />{" "}
             </div>
             <div className="col-lg-4 col-md-6">
               <img
-                src="/images/About/svvv3.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/svvv3.jpg?alt=media&token=141ac639-b0d8-4779-93c5-fe516077663a"
                 className="img-fluid img-responsive"
                 alt="img-responsive"
               />{" "}
@@ -69,11 +69,7 @@ export default class About extends Component {
                 </li>
               </ul>
               <p align="justify">
-                Shri Vaishnav Vidyapeeth Vishwavidyalaya at Indore is a
-                multi-disciplinary university focusing on the needs of various
-                segments of the society. INDORE RAILWAY STATION TO SVVV - 13
-                K.M. DEVI AHILYA BAI HOLKAR INTERNATIONAL AIRPORT TO SVVV - 15
-                K.M.
+               
                 <br />
                 <br />
               </p>
@@ -88,18 +84,18 @@ export default class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <img src="/images/About/img_2.jpg" className="img-fluid" alt="svvv" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/img_2.jpg?alt=media&token=4bdf9375-2740-4c73-b333-8df0d8646c93" className="img-fluid" alt="svvv" />
             </div>
             <div className="col-lg-4 col-md-6">
               <img
-                src="/images/About/rajwada.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/rajwada.jpg?alt=media&token=13b0045b-e5e5-4a80-9436-37c39fcce0c0"
                 className="img-fluid"
                 alt="svvv2"
               />{" "}
             </div>
             <div className="col-lg-4 col-md-6">
               <img
-                src="/images/About/tinchafall.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/tinchafall.jpg?alt=media&token=2d40fba2-6303-44ec-bacf-f8bb4d62e890"
                 className="img-fluid"
                 alt="svvv3"
               />{" "}

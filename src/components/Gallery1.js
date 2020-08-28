@@ -47,7 +47,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block  w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/1.jpg?alt=media&token=3db98aff-89fe-4814-8ae6-f9d3754898f8"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/1.jpg?alt=media&token=4c3edcb6-8d9a-4c4b-aa7e-273bbe84d456"
               alt="Zero slide"
               height="150"
             />
@@ -55,7 +55,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid "
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/2.jpg?alt=media&token=72444c9a-26d3-443a-871b-58597c99eacd"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/2.jpg?alt=media&token=0cc497c0-f33c-4feb-933f-4b91db5f9b36"
               alt="one slide"
               height="150"
             />
@@ -63,7 +63,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/3.jpg?alt=media&token=cc5bc05e-27c5-4244-bca9-064edb89a487"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/3.jpg?alt=media&token=7a55c537-5ab9-448a-956b-f9883199d422"
               alt="two slide"
               height="150"
             />
@@ -71,7 +71,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/4.jpg?alt=media&token=6d008392-21ce-4dd1-96c2-adc996b4f644"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/4.jpg?alt=media&token=117bfefa-c0f1-44c5-97fd-84899d8c09de"
               alt="three slide"
               height="150"
             />
@@ -79,7 +79,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/5.jpg?alt=media&token=5c625fd2-69e3-4ff3-a0c8-a84667c04c53"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/5.jpg?alt=media&token=5e76d4b9-6be8-46d7-8657-79fd2d80a125"
               alt="four slide"
               height="150"
             />
@@ -87,7 +87,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/6.jpg?alt=media&token=931af65d-3149-4616-bdba-a8a77d895130"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/6.jpg?alt=media&token=a7fc6cf6-fa08-4e60-8e39-5fea7761d394"
               alt="five slide"
               height="150"
             />
@@ -95,7 +95,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/7.jpg?alt=media&token=30ba6d1a-2f65-4e3b-9169-055695c70062"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/7.jpg?alt=media&token=4c7b55de-f985-44b0-9eb2-0cea6ec6385e"
               alt="six slide"
               height="150"
             />
@@ -103,7 +103,7 @@ class Gallery1 extends React.Component {
           <div className="item">
             <img
               className="d-block w-100 img-fluid"
-              src="https://firebasestorage.googleapis.com/v0/b/gallery-36374.appspot.com/o/8.jpg?alt=media&token=cb88d48d-08ff-4350-a5f0-bd7078d4b606"
+              src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/8.jpg?alt=media&token=fed6dd42-9c16-4043-a5d9-bfbb64a57a04"
               alt="seven slide"
               height="150"
             />
