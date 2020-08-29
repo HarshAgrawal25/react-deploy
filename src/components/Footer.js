@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div align="center">
               Designed And Developed by
-              <Link to="/developed"> React</Link>
+              <Link to="/developed"> Team<i className="fa fa-arrow-down" /></Link>
               <Route
                    exact   path="/developed"
                     component={developed}

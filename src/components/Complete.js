@@ -15,8 +15,7 @@ import Posters from "./Posters";
 import Contact1 from "./Contact1";
 import Sponsors1 from "./Sponsors1";
 
-import {Switch , Route} from 'react-router-dom';
-import developed from './developed'
+
 
 const Complete = () => {
  

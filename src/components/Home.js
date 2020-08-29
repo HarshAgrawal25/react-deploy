@@ -34,7 +34,7 @@ class Home extends Component {
                     </div> */}
                     <div className="mt-3 ">
                       <Link
-                        to="events"
+                        to="instruction"
                         smooth={true}
                         href=""
                         className="btn btn-primary btn-lg rounded-pill"

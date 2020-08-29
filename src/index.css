@@ -28,7 +28,8 @@ code {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: linear-gradient(-45deg, #1045db 0%, #15095e 60%, #15095e 99%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -442,6 +443,7 @@ color: #777;
 #home .data{
   font-weight: 700;
   line-height: 1.7em;
+  font-family: 'Alata', sans-serif;
 }
 #home .data .national{
  
@@ -454,6 +456,7 @@ color: #777;
   
   #home .date{
     margin-top: 25px;
+   
   }
   #home .date i{
      font-size: 30px;
@@ -849,7 +852,10 @@ a {
   /* kaushal start */
 
 #kaushal .heading{
-  font-family: Samarkan;
+  
+  font-family: 'Samarkan';
+  src: local('Samarkan'),url(./fonts/SAMAN___.TTF) format('truetype');
+
 }
 
 #kaushal  svg text{
@@ -1079,6 +1085,8 @@ a {
   }
   #faq .head{
     cursor: pointer;
+    font-weight: 700;
+    word-break: break-all;
   }
   #faq .content{
     padding-top:0px;
@@ -1280,7 +1288,7 @@ transform: scale(0.9);
         padding-right: auto;
         font-size: 240px;
         transform: translateY(-10%);
-        transform: translateX(7%);
+        transform: translateX(9%);
         position: absolute;
         top: 0;
         left: 0;

@@ -120,7 +120,7 @@ export default class Faq extends Component {
                       data-target="#collapseFour"
                       aria-expanded="false"
                       aria-controls="collapseFour"
-                      className="d-block position-relative collapsed text-dark  collapsible-link py-2 head"
+                      className="head d-block position-relative collapsed text-dark  collapsible-link py-2 "
                     >
                       How will I get Certificate if i am of another city/state ?
                     </div>

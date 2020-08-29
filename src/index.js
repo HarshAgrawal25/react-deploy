@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-
+import './fonts/SAMAN___.TTF';
+import './App.css';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -12,6 +12,8 @@ import 'font-awesome/css/font-awesome.css';
 // import $ from 'jquery';
 // import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
