@@ -4,9 +4,9 @@ import developed from './developed';
 class Footer extends Component {
     render() {
         return (
-            <div align="center">
+            <div align="center" id="footer">
               Designed And Developed by
-              <Link to="/developed"> Team<i className="fa fa-arrow-down" /></Link>
+              <Link to="/developed"><span>    Team</span> <i className="fa fa-arrow-down" /></Link>
               <Route
                    exact   path="/developed"
                     component={developed}

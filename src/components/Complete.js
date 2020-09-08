@@ -14,6 +14,8 @@ import Gallery1 from "./Gallery1";
 import Posters from "./Posters";
 import Contact1 from "./Contact1";
 import Sponsors1 from "./Sponsors1";
+import About2 from "./About2";
+import About3 from "./About3";
 
 
 
@@ -25,6 +27,8 @@ const Complete = () => {
         <RightSideBar />
         <Home />
         <About1 />
+        {/* <About2 /> */}
+        
         <About />
         <Events />
         <Posters />

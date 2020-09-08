@@ -141,7 +141,7 @@ class Contact1 extends Component {
               <div className="contact-item three">
                 <p>
                   <span>
-                    <i className="fa fa-user"></i>Taher Kapedia
+                    <i className="fa fa-user"></i>Taher Kapadia
                   </span>
                 </p>
               </div>
@@ -172,7 +172,7 @@ class Contact1 extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="https://instagram.com/csi_svvv?igshid=hmdts6mjvc6m">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>

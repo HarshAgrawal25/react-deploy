@@ -10,7 +10,7 @@ class Kaushal extends Component {
               className="text"
               textAnchor="end"
               x="83%"
-              y="70%"
+              y="90%"
               fill="transparent"
               
             >

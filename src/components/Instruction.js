@@ -21,7 +21,7 @@ export default function Instruction() {
               <h3>Option 1</h3>
               <p className="pt-3" align="center">
                 For payment go to this link &nbsp;
-                <b>https://paytm.com/education </b>&nbsp; Click on this link
+                <b><a href="https://paytm.com/education">https://paytm.com/education</a> </b>&nbsp; Click on this link
                 Select Institute Location as Madhya Pradesh, Indore Select
                 Institute as Shri Vaishnav Vidyapeeth Vishwavidhyalaya and then
                 Select Institute Area as Kaushal2020 Fill the respective details
@@ -31,7 +31,7 @@ export default function Instruction() {
               <h3>Option 2</h3>
               <p className="pt-3" align="center">
                 For direct payment use this link&nbsp;&nbsp;
-                <b>http://bit.ly/kaushal_paytm</b>&nbsp; Click on this link.
+                <b><a href="http://bit.ly/kaushal_paytm">http://bit.ly/kaushal_paytm</a></b>&nbsp; Click on this link.
                 Fill the respective details and make payment.
               </p>
 
@@ -41,7 +41,12 @@ export default function Instruction() {
               </p>
               <div className="center">
                 <div className="col-lg-6 col-md-6 col-12"></div>
-                {/* <img src="/images/Instruction/paytm.png" alt="" /> */}
+                 <img
+                  className="img-fluid" 
+                  src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/IMG-20200907-WA0008.jpg?alt=media&token=62e5232f-0d75-44c6-9833-c69836b1410a" 
+                  height="200px"
+                  width="200px"
+                 alt="qrcode" /> 
               </div>
 
               <h1 className="my-5 heading">Step 2</h1>

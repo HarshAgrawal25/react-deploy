@@ -23,7 +23,7 @@ class Home extends Component {
                     <div className="date ">
                       <i className="fa fa-calendar" />
                           <span className="date-text">
-                         14-15 October ,2020
+                         14 - 15 October, 2020
                          </span>
                     </div>
                     {/* <div className="date ml-4 pl-3">
