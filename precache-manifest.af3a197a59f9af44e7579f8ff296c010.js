@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f2eb3361c95970990bb986b66421ca1",
+    "revision": "fa7abc5b959d6e8931688c0c8dbe0286",
     "url": "/react-deploy/index.html"
   },
   {
-    "revision": "598d5adfcf0254844c64",
+    "revision": "9f843588fd2d90abb325",
     "url": "/react-deploy/static/css/2.c3594674.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/css/3.0ad35584.chunk.css"
   },
   {
-    "revision": "a4d60f0231b8413c9ad7",
-    "url": "/react-deploy/static/css/main.ac125c28.chunk.css"
+    "revision": "31fb8ff541b85e7980ac",
+    "url": "/react-deploy/static/css/main.8475b406.chunk.css"
   },
   {
-    "revision": "598d5adfcf0254844c64",
-    "url": "/react-deploy/static/js/2.5b1d8a44.chunk.js"
+    "revision": "9f843588fd2d90abb325",
+    "url": "/react-deploy/static/js/2.c0e93854.chunk.js"
   },
   {
-    "revision": "f1f1e09cac670f84c9f17317bcf20f3d",
-    "url": "/react-deploy/static/js/2.5b1d8a44.chunk.js.LICENSE.txt"
+    "revision": "da4ed30ef64bd9e65b109b27cfd63f4f",
+    "url": "/react-deploy/static/js/2.c0e93854.chunk.js.LICENSE.txt"
   },
   {
     "revision": "948b25065e695d991c40",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/js/3.cc75f3b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72bd03d2c9bc8d7c9b06",
-    "url": "/react-deploy/static/js/4.34e8f1e2.chunk.js"
+    "revision": "ed3fc5d6fd949831458c",
+    "url": "/react-deploy/static/js/4.799ea975.chunk.js"
   },
   {
-    "revision": "a4d60f0231b8413c9ad7",
-    "url": "/react-deploy/static/js/main.fba121c7.chunk.js"
+    "revision": "31fb8ff541b85e7980ac",
+    "url": "/react-deploy/static/js/main.b33225d3.chunk.js"
   },
   {
-    "revision": "5c3633304c28596ea8a7",
-    "url": "/react-deploy/static/js/runtime-main.a7b23cc3.js"
+    "revision": "8de6c8547250442b3889",
+    "url": "/react-deploy/static/js/runtime-main.a9bb9fdd.js"
   },
   {
     "revision": "8107f8b787a40a84fbf3ee220abd84aa",
