@@ -11,22 +11,24 @@ export default class About extends Component {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/svvv.jpg?alt=media&token=61fca821-e285-453e-a41b-8e3709e0c5f2"
-                className="img-fluid  img-responsive"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/about%20svvv%2FADMIN%20VIEW.jpg?alt=media&token=05709d7e-162e-4a35-b710-deaeb3ca6407"
+                className=" third img-fluid  img-responsive"
                 alt="img-responsive"
               />
             </div>
             <div className="col-lg-4 col-md-6">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/svvv2.jpg?alt=media&token=085752c9-758c-498b-9b63-1045a2a45242"
-                className="img-fluid img-responsive"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/about%20svvv%2FACADEMIC%20VIEW.jpg?alt=media&token=6001c9e9-6c61-4f4e-ab08-57ba8861bbb2"
+                className="third img-fluid img-responsive"
                 alt="img-responsive"
               />{" "}
             </div>
             <div className="col-lg-4 col-md-6">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/svvv3.jpg?alt=media&token=141ac639-b0d8-4779-93c5-fe516077663a"
-                className="img-fluid img-responsive"
+                height="190px"
+                width="350px"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/about%20svvv%2FLIBRARY%20VIEW.jpg?alt=media&token=f23a1c2b-abce-426d-bd2d-92425f1543b4"
+                className="third img-fluid img-responsive"
                 alt="img-responsive"
               />{" "}
             </div>

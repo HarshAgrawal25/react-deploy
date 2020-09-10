@@ -21,7 +21,7 @@ export default function Instruction() {
               <h3>Option 1</h3>
               <p className="pt-3" align="center">
                 For payment go to this link &nbsp;
-                <b><a href="https://paytm.com/education">https://paytm.com/education</a> </b>&nbsp; Click on this link
+                <b><a target="_blank" href="https://paytm.com/education">https://paytm.com/education</a> </b>&nbsp; Click on this link
                 Select Institute Location as Madhya Pradesh, Indore Select
                 Institute as Shri Vaishnav Vidyapeeth Vishwavidhyalaya and then
                 Select Institute Area as Kaushal2020 Fill the respective details
@@ -31,7 +31,7 @@ export default function Instruction() {
               <h3>Option 2</h3>
               <p className="pt-3" align="center">
                 For direct payment use this link&nbsp;&nbsp;
-                <b><a href="http://bit.ly/kaushal_paytm">http://bit.ly/kaushal_paytm</a></b>&nbsp; Click on this link.
+                <b><a target="_blank" href="http://bit.ly/kaushal_paytm">http://bit.ly/kaushal_paytm</a></b>&nbsp; Click on this link.
                 Fill the respective details and make payment.
               </p>
 

@@ -376,6 +376,21 @@ color: #777;
   }  */
  
  
+  #events .card-title{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+  }
+ 
+    #events .card-text::-webkit-scrollbar {
+      display: none;
+    }
+    #events .card-text {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
   
 
  
@@ -492,6 +507,7 @@ color: #777;
     left: 50%;
     margin-left: -13px;
     background-color:lightblue;
+    
   }
   #home .go-down:hover{
     cursor: pointer;
@@ -540,6 +556,9 @@ color: #777;
 
   .About  h1{
     color: rgb(128,128,128);
+  }
+  #about .third{
+    height: 190px;
   }
   /* About ends */
 
@@ -602,7 +621,7 @@ color: #777;
       position: relative;
       z-index: 50;
       margin-right: -10px;
-      margin-left: ;
+      /* margin-left: ; */
       margin-top: -80px;
       padding-top: 0;
       height: 750px;
@@ -864,7 +883,7 @@ a {
   /* kaushal start */
 
 #kaushal .heading{
-  
+  margin-top: -50px;
   font-family: 'Samarkan';
   src: local('Samarkan'),url(./fonts/SAMAN___.TTF) format('truetype');
 
@@ -1009,7 +1028,7 @@ a {
     bottom: 0;
     right :0;
     background-color: white;
-    font-size: 17px; 
+    /* font-size: 17px;  */
     -webkit-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.75);
@@ -1089,18 +1108,22 @@ a {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    
   }
   
   #faq  {
+    
     margin-top: 50px;
     margin-bottom: 100px;
   }
   #faq .head{
+    
     cursor: pointer;
     font-weight: 700;
     word-break: break-all;
   }
   #faq .content{
+    
     padding-top:0px;
     display: flex;
     content: wrap;
@@ -1112,6 +1135,7 @@ a {
   }
 
   #faq .collapsible-link::before {
+    
     content: '';
     width: 14px;
     height: 2px;
@@ -1151,7 +1175,7 @@ a {
   /* gallery starts */
 #carousel-generic{
  
-  padding-top: 50px;
+  /* padding-top: 50px; */
   margin-bottom: 100px;
   padding-bottom: 100px;
 }
@@ -1322,4 +1346,21 @@ transform: scale(0.9);
         margin-top: 10px;
         margin-bottom: -50px;
       }
+      #developed a{
+        display: flex;
+        color: red;
+        flex-flow: column;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0px 0px 0px 100px;
+      }
+      #about .third{
+        margin-top: 20px;
+      }
+  }
+
+  #developed a{
+    margin-right: 100px;
   }

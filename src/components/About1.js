@@ -37,7 +37,7 @@ class About1 extends Component {
                 convention will provide fruitful knowledge dissemination and
                 cultural exchange among students from various parts of the
                country. */}
-                Attractive Prizes Worth Rs 1,00,000 (Exclusive Awards, Cash
+                Attractive Prizes Worth &#8377; 1,00,000 (Exclusive Awards, Cash
                 Prizes, Speacial Recognitions, Recognized Certificates and many
                 more).
               </p>
