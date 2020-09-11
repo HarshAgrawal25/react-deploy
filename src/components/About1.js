@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import ReactPlayer from 'react-player'
 class About1 extends Component {
   render() {
     return (
@@ -37,12 +37,30 @@ class About1 extends Component {
                 convention will provide fruitful knowledge dissemination and
                 cultural exchange among students from various parts of the
                country. */}
-                Attractive Prizes Worth &#8377; 1,00,000 (Exclusive Awards, Cash
+                Attractive Prizes Worth Rs 1,00,000 (Exclusive Awards, Cash
                 Prizes, Speacial Recognitions, Recognized Certificates and many
                 more).
               </p>
+
             </div>
+            
             <div className="camera col-sm-12 col-md-5 d-flex justify-content-end order-1 order-lg-2">
+              <div className="">
+                
+              <ReactPlayer
+                url='https://www.youtube.com/watch?v=J-dv_DcDD_A'
+                width = "350px"
+                height = "220px"
+                className="video"
+                controls
+                onReady={() => console.log('onReady callback')}
+                onStart={() => console.log('onStart callback')}
+                onPause={() => console.log('onPause callback')}
+                onEnded={() => console.log('onEnded callback')}
+                onError={() => console.log('onError callback')}
+              />
+              
+            </div>
               <img
                 className="aws img-fluid"
                 height="5000px"
@@ -50,13 +68,10 @@ class About1 extends Component {
                 src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/camera2.png?alt=media&token=a962e2bc-e189-4ca6-86e9-4253d3a953bb"
                 alt="camera"
               ></img>
-              <img
-                className="aws-phone img fluid"
-                align="center"
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/camera3.jpg?alt=media&token=f7420f5e-6245-4b2d-9bd1-632dff62e006"
-                alt="camera-phone"
-              ></img>
+
+              
             </div>
+
           </div>
         </div>
       </div>
