@@ -27,7 +27,7 @@ const ScrollUp = () => {
         className="scroll-to-top cursor-pointer text-right"
         onClick={scrollToTop}
       >
-        <i className="icon fa fa-angle-up fa-lg" aria-hidden="true"></i>
+        <i className="icon fa fa-angle-up fa-2x" aria-hidden="true"></i>
       </div>
     </div>
   );

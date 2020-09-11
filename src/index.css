@@ -276,18 +276,20 @@ color: #777;
   /* events start */
 #events p{
   font-family: 'Alata', sans-serif;
+  
 }
 
   .card-body{
     overflow-y: auto;
     height: 180px;
     
+    
   }
   
   .card-custom {
     overflow: hidden;
     min-height: 450px;
-    box-shadow: 6px 8px 20px 0px
+    box-shadow: 6px 10px 20px 0px
       rgba(46,61,73,0.35); ; 
     transition:box-shadow 0.3s ease, border 0.3s;
   }
@@ -949,17 +951,20 @@ a {
     position: fixed;
     bottom: 15px;
     right:3%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
     background: brown;
     color: white;
     cursor: pointer;
     z-index: 10000000;
+    /* box-shadow: 0 0 15px rgba(10, 10, 10, 0.3); */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+    
   }
   #scroll .scroll-to-top .icon{
-    margin-top: 10px;
-    margin-right: 12.5px;
+    margin-top: 5px;
+    margin-right: 14px;
     animation: scrollTop .5s alternate ease infinite;
   }
   @keyframes scrollTop{
