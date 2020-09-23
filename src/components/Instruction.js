@@ -12,32 +12,26 @@ export default function Instruction() {
             <div className="col-md-6 mx-auto">
               <h1 className="heading ">Step 1</h1>
               <p className="pt-4" align="center">
-                Pay your respective amount via paytm for single event. (Rs.100/-
-                per Event ) Note: You can register for a single event at a time,
-                If you want to register for more than one events, you have to
-                register again with new event by repeating same steps
+              For a single event, pay your respective amount via PayTM (Rs.100/- per Event). NOTE: You can register for a single event at a time, if you want to register for more than one event, you have to register again with the new event by repeating the above mentioned steps.
               </p>
 
               <h3>Option 1</h3>
               <p className="pt-3" align="center">
                 For payment go to this link &nbsp;
                 <b><a target="_blank" href="https://paytm.com/education">https://paytm.com/education</a> </b>&nbsp; Click on this link
-                Select Institute Location as Madhya Pradesh, Indore Select
-                Institute as Shri Vaishnav Vidyapeeth Vishwavidhyalaya and then
-                Select Institute Area as Kaushal2020 Fill the respective details
-                and make payment.
+                Open the link > Select Institute Location: Madhya Pradesh, Indore > Select Institute: Shri Vaishnav Vidyapeeth Vishwavidhyalaya > Select Institute Area as Kaushal2020 > And by filling in the respective details and making the necessary payment.
               </p>
 
               <h3>Option 2</h3>
               <p className="pt-3" align="center">
                 For direct payment use this link&nbsp;&nbsp;
                 <b><a target="_blank" href="http://bit.ly/kaushal_paytm">http://bit.ly/kaushal_paytm</a></b>&nbsp; Click on this link.
-                Fill the respective details and make payment.
+                Fill in the respective details and make the necessary payment. 
               </p>
 
               <h3>Option 3</h3>
               <p className="pt-3" align="center">
-                Scan This QR code only by Paytm scanner
+              Scan this QR code only by the Paytm scanner.
               </p>
               <div className="center">
                 <div className="col-lg-6 col-md-6 col-12"></div>
@@ -50,9 +44,12 @@ export default function Instruction() {
               </div>
 
               <h1 className="my-5 heading">Step 2</h1>
-              <button type="button" className="btn btn-warning">
+
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSesnQtm1PP5UXyJAZyWfDhVQ8OpMY8BwoGSEF88EpfRu_cNqQ/viewform" 
+              target="_blank" 
+              className="btn btn-primary button">
                 Submit your Registration Details Here
-              </button>
+                </a>
             </div>
           </div>
         </div>

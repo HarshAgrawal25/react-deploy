@@ -31,10 +31,13 @@ export default class Posters extends Component {
             <div className="carousel-item">
               <img
                 className="d-block w-60 img-fluid"
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/01.jpg?alt=media&token=441f0095-fc77-45d1-adc7-4193f1fbf52b"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Poster%2Ffinalsize.png?alt=media&token=c88358b5-67f9-41e1-aa87-81cd46ea90b8"
                 alt="main slide"
+               
               />
+              
             </div>
+            
           </div>
           <a
             className="carousel-control-prev"

@@ -48,7 +48,7 @@ class About1 extends Component {
               <div className="">
                 
               <ReactPlayer
-                url='https://www.youtube.com/watch?v=J-dv_DcDD_A'
+                url='https://youtu.be/r4aulqTxZIc'
                 width = "350px"
                 height = "220px"
                 className="video"

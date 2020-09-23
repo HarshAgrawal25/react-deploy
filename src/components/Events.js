@@ -12,28 +12,20 @@ export default class Events extends Component {
           <div className="row">
             <div className="col-md-12 align-self-center">
               <p className="contnt" align="justify">
-                {/* Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
-                of Shri Vaishnav Shaikshanik awam Parmarthik Nyas, Indore (M.P.)
-                is organizing a National Level Computer ociety of India
-                Convention– “KAUSHAL-2.0” on the theme of “Recent Digital
-                Technology advancement” from 14/10/2020 to 15/10/2020. The */}
-                The objective of this National Convention is to provide a phenomenal
-                opportunity for the students to showcase their technical skills,
-                ideas and/or implementations as a cherishing outcome in the
-                contribution to the Nation’s Dream of IT superpower globally.The
-                convention will consisted of 05 events such as 
-                research publications and articles, project contest, programming contest & technical quiz
-                contest. The convention will provide fruitful knowledge
-                dissemination and cultural exchange among students from various
-                parts of the country.
+              The National Convention stands tall to provide significant opportunities to the students to 
+              showcase their ideas and technical skills. With this, the convention tries to bring in a 
+              notable  contribution to the Nation’s Dream of being an IT superpower globally. 
+              The convention consists of five different events that fall under various categories. 
+              The convention invites students from various parts of the country to provide a platform for 
+              knowledge dissemination and cultural exchange.
               </p>
             </div>
           </div>
           <br />
           <div className="row pt-5 m-auto">
             {/* card 1 */}
-            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
-              <div className="card card-custom bg-white border-white border-0">
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3 order-2 order-lg-1 ">
+              <div className="card card-custom bg-white border-white border-0  ">
                 <div className="card-custom-img "><Particle /></div>
                 <div className="card-custom-avatar">
                   <div className="service-icon">
@@ -54,29 +46,33 @@ export default class Events extends Component {
                 <div className="card-body">
                   <h4 className="card-title" >TECHNICAL QUIZ</h4>
                   <p className="card-text " align="justify">
-                  The quizzes are all restricted in information technology, information and communication 
-                  technology, and computer science.Participants has to answer the question correctly in given time.
+                  The quizzes are based on information technology, information and communication technology, and computer sciences. Participants would have to correctly answer the questions asked in the stipulated time.
                   </p>
                 </div>
                 <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
-
+                {/* card 2  price money */}
             {/* price money */}
-            <div className="square col-sm-12 col-md-6 col-lg-4 pb-3">
-              <span></span>
-              <span></span>
-              <span></span>
-              <div className="price">
-                <h3 align="center">Price</h3>
-                <p>
-                  Attractive prices worth &#8377; 1 Lakh and Internship offers
-                  and many more
-                </p>
-              </div>
+            <div className="square col-sm-12 col-md-6 col-lg-4 pb-3 order-1 order-lg-2">
+            <div className="price card card-custom bg-white border-white border-0 " >
+              <div>
+                 
+                  <div style={{fontSize:"85px" , marginLeft:'20px'}}>
+                    14 
+                  </div>
+                  <div style={{fontSize:"85px", marginLeft:"125px",marginTop:"-50px" }}>
+                     &
+                  </div>
+  
+                  <div style={{fontSize:"85px",marginLeft:"220px" , marginTop:"-50px"}}>
+                    15
+                  </div>
+                </div>
+                </div>
             </div>
-            {/* card 2 */}
-            <div className="col-sm-12 col-md-6 col-lg-4 pb-3">
+            {/* card 3 */}
+            <div className="col-sm-12 col-md-6 col-lg-4 pb-3 order-3 order-lg-3">
               <div className="card card-custom bg-white border-white border-0">
                 <div className="card-custom-img"><Particle /></div>
                 <div className="card-custom-avatar">
@@ -98,15 +94,14 @@ export default class Events extends Component {
                 <div className="card-body">
                   <h4 className="card-title">PROJECT CONTEST</h4>
                   <p className="card-text m-4" align="justify">
-                    In this event UG/PG students have to present their project
-                    along with running code.
+                  In this event, Undergraduate and Postgraduate students have to present their project along supplemented by the running code.
                   </p>
                 </div>
                 <div className="card-footer bg-transparent border-light"></div>
               </div>
             </div>
 
-            {/* card 3 , 4 , 5 */}
+            {/* card 4 , 5 , 6 */}
           </div>
           <div className="row pt-5 m-auto">
             {/* card 1 */}
@@ -129,8 +124,7 @@ export default class Events extends Component {
                 <div className="card-body">
                   <h4 className="card-title">PROGRAMMING CONTEST</h4>
                   <p className="card-text m-4" align="justify">
-                    Participant has to write code for a given problem.Problem
-                    statement will be given on spot to the participants.
+                  Participants would be required to write the code for the provided problem. The problems would be allotted to the participants on the spot.
                   </p>
                 </div>
                 <div className="card-footer bg-transparent border-light"></div>
@@ -160,8 +154,9 @@ export default class Events extends Component {
                 <div className="card-body">
                   <h4 className="card-title"> POSTER    DESIGNING</h4>
                   <p className="card-text m-4" align="justify">
-                    Participant has to show case idea for their poster and show
-                    their poster making ability
+                  Participants would have to display their ideas with regards to their posters and showcase their poster making skills and abilities.
+
+
                   </p>
                 </div>
                 <div className="card-footer bg-transparent border-light"></div>
@@ -189,9 +184,7 @@ export default class Events extends Component {
                     RESEARCH PUBLICATION & ARTICLES
                   </h4>
                   <p className="card-text m-3" align="justify">
-                    In this event participants prepare/create Research
-                    Publications & Articles.It should be submitted on given
-                    date.
+                  In this event, participants would be needed to prepare or create Research Publications & Articles. Submissions of the same should be done by the provided date.
                   </p>
                 </div>
                 <div className="card-footer bg-transparent border-light"></div>

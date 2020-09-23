@@ -39,18 +39,13 @@ export default class About extends Component {
             <div className="col align-self-center">
               <br /> <br />
               <p align="justify">
-                {" "}
-                Shri Vaishnav Vidyapeeth Vishwavidyalaya is a private university
-                established under Madhya Pradesh Niji Vishwavidyalaya ( Sthapana
-                Avam Sanchalan) Adhiniyam in 2015 at Indore MP(India). The
-                University has been established with a vision to be leader in
-                shaping better future for mankind through quality education,
-                training and research. It shall pursue the mission to make a
-                difference in sustaining the growth of global societies by
-                developing socially responsible citizens. Value based education
-                being at the helm, the University shall promote endurance,
-                excellence, fairness, honesty and transparency as its core
-                values.{" "}
+              Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV) is a private university established under Madhya 
+              Pradesh Niji Vishwavidyalaya (Sthapana Avam Sanchalan) Adhiniyam in 2015 at Indore. 
+              The University has been established with a vision to be a leader in shaping a better 
+              future for mankind through quality education, training and research.The university speaks high
+               of sustaining the growth of global societies by developing socially responsible citizens. 
+               The university holds five value pillars of endurance, excellence, fairness, honesty and 
+               transparency to promote value based education. 
               </p>
               <p align="justify">
                 Some of the objectives of the University are as under:

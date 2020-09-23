@@ -1,7 +1,22 @@
 import React, { Component } from "react";
+import emailjs from "emailjs-com";
 import "../index.css";
+
 class Contact1 extends Component {
   render() {
+    function sendEmail(e) {
+      e.preventDefault();
+
+  emailjs.sendForm('gmail', 'kaushal_temp', e.target, 'user_OFB6lgw7EXkNxNDKf9iob')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+      
+  }
+
     return (
       <div id="contact">
         
@@ -60,7 +75,7 @@ class Contact1 extends Component {
             <div className="col-sm-12 col-md-4 order-3 order-lg-2 mx-auto">
               <div className="text-center">
                 <h3>Drop us a line</h3>
-                <form name="sentMessage" id="contactForm" noValidate>
+                <form name="sentMessage" id="contactForm" noValidate onSubmit={sendEmail}>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -70,6 +85,7 @@ class Contact1 extends Component {
                           className="form-control"
                           placeholder="Name"
                           required="required"
+                          name="name"
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -82,6 +98,7 @@ class Contact1 extends Component {
                           className="form-control"
                           placeholder="Email"
                           required="required"
+                          name="email"
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -95,11 +112,12 @@ class Contact1 extends Component {
                       rows="3"
                       placeholder="Message"
                       required
+                      name="message"
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-light btn-lg rounded-pill">
+                  <button type="submit" className="btn btn-light btn-lg rounded-pill" >
                     Send Message
                   </button>
                 </form>
@@ -162,17 +180,17 @@ class Contact1 extends Component {
               <div className="social">
                 <div className="ul">
                   <li>
-                    <a href="">
+                    <a target="_blank" href="">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a target="_blank" href="https://www.linkedin.com/in/csi-svvv-indore-7449561b7/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/csi_svvv?igshid=hmdts6mjvc6m">
+                    <a target="_blank" href="https://instagram.com/csi_svvv?igshid=hmdts6mjvc6m">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
