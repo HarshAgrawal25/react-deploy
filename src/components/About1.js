@@ -44,7 +44,7 @@ class About1 extends Component {
 
             </div>
             
-            <div className="camera col-sm-12 col-md-5 d-flex justify-content-end order-1 order-lg-2">
+            <div className="camera col-sm-12 col-md-5 d-flex  order-1 order-lg-2">
               <div className="">
                 
               <ReactPlayer

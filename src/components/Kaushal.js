@@ -5,7 +5,7 @@ class Kaushal extends Component {
     return (
       <div id="kaushal">
         <div className="heading">
-          <svg viewBox="0 0 1350 700">
+          <svg viewBox="0 0 1380 700">
             <text
               className="text"
               textAnchor="end"
@@ -14,7 +14,7 @@ class Kaushal extends Component {
               fill="transparent"
               
             >
-              Kaushal 2.0
+              Kaushal 2
             </text>
           </svg>
         </div>

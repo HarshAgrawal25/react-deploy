@@ -8,7 +8,7 @@ export default class App extends Component {
     
   <div id="faq" className="container">
     <div className="section-title">
-            <h2 align="center">F.A.Q</h2>
+            <h2 align="center">FAQs</h2>
           </div>
   <div className="row py-5">
     <div className="col-lg-9 mx-auto">
