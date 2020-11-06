@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.87c31ee2.chunk.css",
+    "main.css": "/react-deploy/static/css/main.98774bd8.chunk.css",
     "main.js": "/react-deploy/static/js/main.9d3f41a1.chunk.js",
     "main.js.map": "/react-deploy/static/js/main.9d3f41a1.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.e141853b.js",
@@ -14,11 +14,11 @@
     "static/js/4.f623db0e.chunk.js": "/react-deploy/static/js/4.f623db0e.chunk.js",
     "static/js/4.f623db0e.chunk.js.map": "/react-deploy/static/js/4.f623db0e.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "precache-manifest.dc86b77d7829670fe2861977818ed64b.js": "/react-deploy/precache-manifest.dc86b77d7829670fe2861977818ed64b.js",
+    "precache-manifest.baf694ce4d37f925822d6aa8151388c2.js": "/react-deploy/precache-manifest.baf694ce4d37f925822d6aa8151388c2.js",
     "service-worker.js": "/react-deploy/service-worker.js",
     "static/css/2.c3594674.chunk.css.map": "/react-deploy/static/css/2.c3594674.chunk.css.map",
     "static/css/3.0ad35584.chunk.css.map": "/react-deploy/static/css/3.0ad35584.chunk.css.map",
-    "static/css/main.87c31ee2.chunk.css.map": "/react-deploy/static/css/main.87c31ee2.chunk.css.map",
+    "static/css/main.98774bd8.chunk.css.map": "/react-deploy/static/css/main.98774bd8.chunk.css.map",
     "static/js/2.b221cafe.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.b221cafe.chunk.js.LICENSE.txt",
     "static/js/3.3cc04911.chunk.js.LICENSE.txt": "/react-deploy/static/js/3.3cc04911.chunk.js.LICENSE.txt",
     "static/media/font-awesome.css": "/react-deploy/static/media/fontawesome-webfont.fee66e71.woff"
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e141853b.js",
     "static/css/3.0ad35584.chunk.css",
     "static/js/3.3cc04911.chunk.js",
-    "static/css/main.87c31ee2.chunk.css",
+    "static/css/main.98774bd8.chunk.css",
     "static/js/main.9d3f41a1.chunk.js"
   ]
 }
