@@ -1341,7 +1341,11 @@ transform: scale(0.9);
         width: 330px;
         display: inherit;
       }
+      #footer .ff{
+        font-size: 12px;
+      }
   }
+ 
 
   #developed a{
     margin-right: 100px;

@@ -5,11 +5,11 @@ class Footer extends Component {
     render() {
         return (
             <div align="center" id="footer">
-              Designed And Developed by
+              <div className="ff">©CSI-SVVV 2020 |Designed And Developed by
               <Link to="/developed" >
                   <span>    Team</span> 
                   
-                <i className="fa fa-arrow-down" /></Link>
+                <i className="fa fa-arrow-down" /></Link></div>
               <Route
                    exact   path="/developed"
                     component={developed}

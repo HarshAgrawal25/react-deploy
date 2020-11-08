@@ -63,12 +63,12 @@ export default class Sponsors1 extends Component {
               <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/80.png?alt=media&token=09736265-c514-4cf5-bb1d-709a5afd4aa8" className="img-fluid" alt=""/>
             </div>
           </div>
-
+{/* 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
               <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/90.png?alt=media&token=a2246ca1-127c-419d-8fda-a94ab176c938" className="img-fluid" alt="" />
             </div>
-          </div>
+          </div> */}
           
           
         
@@ -78,11 +78,11 @@ export default class Sponsors1 extends Component {
             </div>
           </div>
           
-          <div className="col-lg-3 col-md-4 col-xs-6">
+          {/* <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
               <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/120.png?alt=media&token=c2d9dfe8-4d5f-4277-8456-943499e43eaf" className="img-fluid" alt=""/>
             </div>
-          </div>
+          </div> */}
           
 
         </div>
