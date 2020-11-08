@@ -7,12 +7,12 @@ export default class About extends Component {
         <div className="section-title">
           <h2 align="center" className="my-5"> ABOUT SVVV </h2>
         </div>
-        <div className="container">
-          <div className="row">
+        <div className="container photo">
+          <div className="row align-self-center">
             <div className="col-lg-4 col-md-6">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/about%20svvv%2FADMIN%20VIEW.jpg?alt=media&token=05709d7e-162e-4a35-b710-deaeb3ca6407"
-                className=" third img-fluid  img-responsive"
+                className=" third img-fluid  img-responsive align-self-center"
                 alt="img-responsive"
               />
             </div>

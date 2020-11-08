@@ -21,15 +21,15 @@ class About1 extends Component {
                 of Shri Vaishnav Shaikshanik Parmarthik Nyas, Indore (M.P.) is
                 organizing a National Level Computer Society of India
                 Convention– “KAUSHAL-2.0” on the theme of “Digital
-                Transformation for Sustainable Development” from 14/10/2020 to
-                15/10/2020. The objective of this National Convention is to
+                Transformation for Sustainable Development” from 10/12/2020 to
+                11/12/2020. The objective of this National Convention is to
                 provide a phenomenal opportunity for the students to showcase
                 their technical skills, ideas and or implementations as a
                 cherishing outcome in the contribution to the Nation’s Dream of
                 IT superpower globally.
               </p>
               <p align="justify" className="mb-5 pb-5">
-                The convention will consisted of 05 events such as workshops,
+                The convention will consisted of various events such as workshops,
                 research articles, project contest, key note addresses, web &
                 mobile design application, programming contest,idea poster and
                 startup, & technical quiz contest.
@@ -44,7 +44,7 @@ class About1 extends Component {
 
             </div>
             
-            <div className="camera col-sm-12 col-md-5 d-flex  order-1 order-lg-2">
+            <div className="camera col-sm-10 col-md-5 d-flex  order-1 order-lg-2">
               <div className="">
                 
               <ReactPlayer

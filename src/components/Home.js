@@ -18,7 +18,8 @@ class Home extends Component {
                       </h1>
                     </div>
                     <h2 className="data my-3">
-                      CSI <span className="national">NATIONAL CONCLAVE</span> CUM <span className="sym">SYMPOSIUM</span>
+                      {/* CSI <span className="national">NATIONAL CONCLAVE</span> CUM <span className="sym">SYMPOSIUM</span> */}
+                      CSI STATE STUDENT CONVENTION  REGION-III
                     </h2>
                     <div className="date ">
                       <i className="fa fa-calendar" />

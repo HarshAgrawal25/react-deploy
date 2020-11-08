@@ -112,7 +112,6 @@ class Contact1 extends Component {
                       rows="3"
                       placeholder="Message"
                       required
-                      name="message"
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
@@ -129,7 +128,7 @@ class Contact1 extends Component {
                 <h3>Student Co-ordinator</h3>
                 <p>
                   <span>
-                    <i className="fa fa-user"></i>Ankur Singh Tomar
+                    <i className="fa fa-user"></i>Harsh Agrawal 
                   </span>
                 </p>
               </div>
@@ -137,14 +136,14 @@ class Contact1 extends Component {
                 <p>
                   <span>
                     <i className="fa fa-phone"></i>
-                    <a href="tel: 8871003213">8871003213</a>
+                    <a href="tel: 8871003213">9009068096</a>
                   </span>
                 </p>
               </div>
               <div className="contact-item three">
                 <p>
                   <span>
-                    <i className="fa fa-user"></i>Kanhaiya Sharma
+                    <i className="fa fa-user"></i>Akshay Verma
                   </span>
                 </p>
               </div>
@@ -152,7 +151,7 @@ class Contact1 extends Component {
                 <p>
                   <span>
                     <i className="fa fa-phone"></i>
-                    <a href="tel: 9617138985">9617138985</a>
+                    <a href="tel: 9617138985">6264507878</a>
                   </span>
                 </p>
               </div>
@@ -180,17 +179,17 @@ class Contact1 extends Component {
               <div className="social">
                 <div className="ul">
                   <li>
-                    <a target="_blank" href="">
+                    <a target="_blank" href="https://www.facebook.com/Csi_Svvv-105818784675910" rel="noopener noreferrer">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/csi-svvv-indore-7449561b7/">
+                    <a target="_blank" href="https://www.linkedin.com/in/csi-svvv-indore-7449561b7/" rel="noopener noreferrer">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://instagram.com/csi_svvv?igshid=hmdts6mjvc6m">
+                    <a target="_blank" href="https://instagram.com/csi_svvv?igshid=hmdts6mjvc6m" rel="noopener noreferrer">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>

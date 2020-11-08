@@ -18,14 +18,14 @@ export default function Instruction() {
               <h3>Option 1</h3>
               <p className="pt-3" align="center">
                 For payment go to this link &nbsp;
-                <b><a target="_blank" href="https://paytm.com/education">https://paytm.com/education</a> </b>&nbsp; Click on this link
-                Open the link > Select Institute Location: Madhya Pradesh, Indore > Select Institute: Shri Vaishnav Vidyapeeth Vishwavidhyalaya > Select Institute Area as Kaushal2020 > And by filling in the respective details and making the necessary payment.
+                <b><a target="_blank"  rel="noopener noreferrer" href="https://paytm.com/education">https://paytm.com/education</a> </b>&nbsp; Click on this link
+                Open the link {'>'} Select Institute Location: Madhya Pradesh, Indore{'>'} Select Institute: Shri Vaishnav Vidyapeeth Vishwavidhyalaya {'>'} Select Institute Area as Kaushal2020{'>'} And by filling in the respective details and making the necessary payment.
               </p>
 
               <h3>Option 2</h3>
               <p className="pt-3" align="center">
                 For direct payment use this link&nbsp;&nbsp;
-                <b><a target="_blank" href="http://bit.ly/kaushal_paytm">http://bit.ly/kaushal_paytm</a></b>&nbsp; Click on this link.
+                <b><a target="_blank"  rel="noopener noreferrer" href="http://bit.ly/kaushal_paytm">http://bit.ly/kaushal_paytm</a></b>&nbsp; Click on this link.
                 Fill in the respective details and make the necessary payment. 
               </p>
 
@@ -44,12 +44,17 @@ export default function Instruction() {
               </div>
 
               <h1 className="my-5 heading">Step 2</h1>
+              <p className="pt-3" align="center">
+              Submit your Registration Details below.
+              </p>
+               <br />
 
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSesnQtm1PP5UXyJAZyWfDhVQ8OpMY8BwoGSEF88EpfRu_cNqQ/viewform" 
               target="_blank" 
-              className="btn btn-primary button">
-                Submit your Registration Details Here
-                </a>
+              rel="noopener noreferrer"
+              className="btn-flip"
+              data-front="Register Here"
+              data-back="Register Here" >.</a>
             </div>
           </div>
         </div>
@@ -57,3 +62,4 @@ export default function Instruction() {
     </div>
   );
 }
+

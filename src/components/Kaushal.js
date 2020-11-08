@@ -14,7 +14,7 @@ class Kaushal extends Component {
               fill="transparent"
               
             >
-              Kaushal 2
+              Kaushal 2.0
             </text>
           </svg>
         </div>

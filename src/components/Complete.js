@@ -36,7 +36,7 @@ const Complete = () => {
         <Footer />
         <ScrollUp />
       </BrowserRouter>
-    </div>
+    </div>  
   );
 };
 

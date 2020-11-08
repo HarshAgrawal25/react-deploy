@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Typewriter from "typewriter-effect";
 import Particle from "./Particle";
 
 export default class Events extends Component {
@@ -37,11 +38,7 @@ export default class Events extends Component {
                     </span>
                   </div>
 
-                  {/* <img
-                    class="img-fluid"
-                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
-                    alt="Avatar"
-                  /> */}
+                
                 </div>
                 <div className="card-body">
                   <h4 className="card-title" >TECHNICAL QUIZ</h4>
@@ -54,23 +51,35 @@ export default class Events extends Component {
             </div>
                 {/* card 2  price money */}
             {/* price money */}
-            <div className="square col-sm-12 col-md-6 col-lg-4 pb-3 order-1 order-lg-2">
-            <div className="price card card-custom bg-white border-white border-0 " >
-              <div>
-                 
-                  <div style={{fontSize:"85px" , marginLeft:'20px'}}>
-                    14 
-                  </div>
-                  <div style={{fontSize:"85px", marginLeft:"125px",marginTop:"-50px" }}>
-                     &
-                  </div>
-  
-                  <div style={{fontSize:"85px",marginLeft:"220px" , marginTop:"-50px"}}>
-                    15
-                  </div>
+            <div className=" col-sm-12 col-md-6 col-lg-4 pb-3 order-1 order-lg-2">
+            <div className="card card-custom bg-white border-white border-0">
+              <div className="card-container">
+                  <div className="card h-100">
+                    
+                 <div className="front" >
+                    <div className="ribbon"><span className="ribbon__content">exclusive</span></div>
+                        <div className="user">
+                          <img className="img-circle" src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/IMG-20201108-WA0002.jpg?alt=media&token=7a9925d3-3ad0-44a5-a588-04008b314138" 
+                          alt="price" />
+                        </div>
+                        <div className = "container">
+                          <h1 class="text-center">Win Exciting Prizes</h1><br />
+                          <div className = "container">
+                          <h2><Typewriter
+                            options={{
+                              strings: ['Attractive prizes worth Rs 1 Lakh', 'And internship opportunities', 'And Many More'],
+                              autoStart: true,
+                              loop: true,
+                            }}
+                          /></h2>
+                          </div>
+                        </div>
+                    </div> 
+                    </div>
                 </div>
-                </div>
+              </div>
             </div>
+
             {/* card 3 */}
             <div className="col-sm-12 col-md-6 col-lg-4 pb-3 order-3 order-lg-3">
               <div className="card card-custom bg-white border-white border-0">
@@ -85,11 +94,7 @@ export default class Events extends Component {
                     </span>
                   </div>
 
-                  {/* <img
-                    class="img-fluid"
-                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
-                    alt="Avatar"
-                  /> */}
+                  
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">PROJECT CONTEST</h4>
@@ -115,11 +120,7 @@ export default class Events extends Component {
                     </span>
                   </div>
 
-                  {/* <img
-                    class="img-fluid"
-                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
-                    alt="Avatar"
-                  /> */}
+                 
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">PROGRAMMING CONTEST</h4>
@@ -145,11 +146,7 @@ export default class Events extends Component {
                     </span>
                   </div>
 
-                  {/* <img
-                    class="img-fluid"
-                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
-                    alt="Avatar"
-                  /> */}
+                 
                 </div>
                 <div className="card-body">
                   <h4 className="card-title"> POSTER    DESIGNING</h4>
@@ -173,11 +170,7 @@ export default class Events extends Component {
                     </span>
                   </div>
 
-                  {/* <img
-                    class="img-fluid"
-                     src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
-                    alt="Avatar"
-                  /> */}
+               
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">
