@@ -24,14 +24,14 @@ export default class Posters extends Component {
             <div className="carousel-item active">
               <img
                 className="d-block w-60 img-fluid"
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/02.jpg?alt=media&token=d1b32c4c-087b-4c66-883b-d3c560c93025"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/csi-01.jpg?alt=media&token=03f4f817-cf1d-4ff2-a8ba-d3ba540cf155"
                 alt="Zero slide"
               />
             </div>
             <div className="carousel-item">
               <img
                 className="d-block w-60 img-fluid"
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Poster%2Ffinalsize.png?alt=media&token=c88358b5-67f9-41e1-aa87-81cd46ea90b8"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/ac.png?alt=media&token=2a85b3b6-aba6-4725-b5fd-d56d6eaa0c16"
                 alt="main slide"
                
               />

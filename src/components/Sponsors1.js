@@ -78,11 +78,11 @@ export default class Sponsors1 extends Component {
             </div>
           </div>
           
-          {/* <div className="col-lg-3 col-md-4 col-xs-6">
+          <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
-              <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/120.png?alt=media&token=c2d9dfe8-4d5f-4277-8456-943499e43eaf" className="img-fluid" alt=""/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/MCC1.png?alt=media&token=49565b4d-82c7-4a09-892e-ae0af0c06ebb" className="img-fluid" alt=""/>
             </div>
-          </div> */}
+          </div>
           
 
         </div>
