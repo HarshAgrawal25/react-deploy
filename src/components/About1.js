@@ -19,8 +19,8 @@ class About1 extends Component {
               <p align="justify" className="py-lg-100px py-sm-0">
                 Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore under the aegis
                 of Shri Vaishnav Shaikshanik Parmarthik Nyas, Indore (M.P.) is
-                organizing a National Level Computer Society of India
-                Convention– “KAUSHAL-2.0” on the theme of “Digital
+                organizing a National Level Computer Society of India State Student 
+                Convention, region III – “KAUSHAL-2.0” on the theme of “Digital
                 Transformation for Sustainable Development” from 10/12/2020 to
                 11/12/2020. The objective of this National Convention is to
                 provide a phenomenal opportunity for the students to showcase
@@ -29,15 +29,14 @@ class About1 extends Component {
                 IT superpower globally.
               </p>
               <p align="justify" className="mb-5 pb-5">
-                The convention will consisted of various events such as workshops,
-                research articles, project contest, key note addresses, web &
-                mobile design application, programming contest,idea poster and
-                startup, & technical quiz contest.
+                The convention will consisted of various events such as Workshops,
+                Research publication & articles, Project Contest,Technical Quiz, Poster Designing,
+                Programming Contest & Hackathon .  
                 {/* The
                 convention will provide fruitful knowledge dissemination and
                 cultural exchange among students from various parts of the
                country. */}
-                Attractive Prizes Worth Rs 1,00,000 (Exclusive Awards, Cash
+                Attractive Prizes Worth Rs 50,000 (Exclusive Awards, Cash
                 Prizes, Speacial Recognitions, Recognized Certificates and many
                 more).
               </p>

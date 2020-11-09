@@ -13,7 +13,7 @@ export default class Events extends Component {
           <div className="row">
             <div className="col-md-12 align-self-center">
               <p className="contnt" align="justify">
-              The National Convention stands tall to provide significant opportunities to the students to 
+              The State Student Convention stands tall to provide significant opportunities to the students to 
               showcase their ideas and technical skills. With this, the convention tries to bring in a 
               notable  contribution to the Nation’s Dream of being an IT superpower globally. 
               The convention consists of five different events that fall under various categories. 
@@ -67,7 +67,7 @@ export default class Events extends Component {
                           <div className = "container">
                           <h2><Typewriter
                             options={{
-                              strings: ['Attractive prizes worth Rs 1 Lakh', 'And internship opportunities', 'And Many More'],
+                              strings: ['Attractive prizes worth Rs 50,000', 'And internship opportunities', 'And Many More'],
                               autoStart: true,
                               loop: true,
                             }}
