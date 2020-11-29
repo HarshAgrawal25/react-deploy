@@ -46,11 +46,11 @@ export default class Sponsors1 extends Component {
             </div>
           </div>
         
-          {/* <div className="col-lg-3 col-md-4 col-xs-6">
+           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
-              <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/60.png?alt=media&token=69ffacd4-60f9-4c62-b8b5-944dcafbe9f4" className="img-fluid" alt=""/>
+              <img src=" https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/100.png?alt=media&token=8622c673-911f-4c21-bfec-f468686718e6" className="img-fluid" alt=""/>
             </div>
-          </div> */}
+          </div> 
           
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
@@ -63,12 +63,13 @@ export default class Sponsors1 extends Component {
               <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/80.png?alt=media&token=09736265-c514-4cf5-bb1d-709a5afd4aa8" className="img-fluid" alt=""/>
             </div>
           </div>
-{/* 
+ 
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
-              <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/90.png?alt=media&token=a2246ca1-127c-419d-8fda-a94ab176c938" className="img-fluid" alt="" />
+              
+              <img src=" https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/images%20(1).png?alt=media&token=705d161d-5ebe-473b-8f4b-c12be0432722" alt="" />
             </div>
-          </div> */}
+          </div> 
           
           
         
@@ -81,6 +82,23 @@ export default class Sponsors1 extends Component {
           <div className="col-lg-3 col-md-4 col-xs-6">
             <div className="supporter-logo">
               <img src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/MCC1.png?alt=media&token=49565b4d-82c7-4a09-892e-ae0af0c06ebb" className="img-fluid" alt=""/>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-4 col-xs-6">
+            <div className="supporter-logo">
+              <img src="  https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/ch-edgemakers.jpg?alt=media&token=10fee0c9-88aa-4be1-afb4-f21dda88e7a8" className="img-fluid" alt=""/>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-4 col-xs-6">
+            <div className="supporter-logo">
+              <img src=" https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/my-fm.jpg?alt=media&token=d3a69e7e-c2e1-485c-832c-4608876345f8" className="img-fluid" alt=""/>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-xs-6">
+            <div className="supporter-logo">
+              <img src="  https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/logo.jpg?alt=media&token=a7b25a7e-3bc8-4c62-8dba-d419fef7ead5" className="img-fluid" alt=""/>
             </div>
           </div>
           

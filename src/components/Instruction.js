@@ -59,7 +59,35 @@ export default function Instruction() {
           </div>
         </div>
       </div>
+      
+      <div id="details">
+              <div className="section-title">
+                    <h2 align = "center" className="my-5"> For More Details</h2><br/>
+              </div>
+              
+              <div className="row" align="center">
+                    <div className="col-lg-4 col-md-6 bt21">
+                      <a href ="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/KAUSHAL-%20Committee-10th-11th%20Dec%2020%2C%20National%20Level%20CSI%20State%20Student%20Convention.pdf?alt=media&token=0566688c-3806-4867-82b8-1cf41681f8b4" 
+                    target="_blank"  rel="noopener noreferrer"  className="btn-flip btn-flip-lg" data-back="Organising Committee" data-front="Organising Committee">.</a>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 bt22 ">
+                      <a href ="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Day-wise%20Event%20Schedule-CSI%20State%20Student%20Convention-Region-III.pdf?alt=media&token=fa20d794-91fe-4f91-adfe-ffa5111ce88b" 
+                    target="_blank"  rel="noopener noreferrer"  className="btn-flip btn-group-lg" data-back="Event Schedule" data-front="Event Schedule">.</a>
+                    </div>
+                    
+                    <div className="col-lg-4 col-md- bt23">
+                      <a href ="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Day-wise%20Event%20Schedule-CSI%20State%20Student%20Convention-Region-III.pdf?alt=media&token=fa20d794-91fe-4f91-adfe-ffa5111ce88b" 
+                    target="_blank"  rel="noopener noreferrer"  className="btn-flip" data-back="Rules and Regulations" data-front="Rules and Regulations">.</a>
+                    </div>
+            </div>
+            <br /><br /><br /><br /><br />
     </div>
+  </div>
+  
+
+    
+    
   );
 }
 

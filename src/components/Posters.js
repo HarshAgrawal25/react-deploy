@@ -24,20 +24,33 @@ export default class Posters extends Component {
             <div className="carousel-item active">
               <img
                 className="d-block w-60 img-fluid"
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Posterrr%2F1604984035175_csi-01.jpg?alt=media&token=62062125-9117-4518-82a6-17c025bda402"
+                src=" https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/csi-01.jpg?alt=media&token=75428dfe-e233-4a31-8ad9-852ae18b9dd3"
                 alt="Zero slide"
               />
             </div>
             <div className="carousel-item">
               <img
                 className="d-block w-60 img-fluid"
-                src="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Posterrr%2Fpcm.png?alt=media&token=81833b61-2863-417d-9553-ee188de6381d"
+                src="https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/WhatsApp%20Image%202020-11-29%20at%203.25.15%20PM.jpeg?alt=media&token=34908a22-cb42-4823-bdfb-11a880abd906
+                "
                 alt="main slide"
                
               />
-              
+              </div>
+             <div className="carousel-item">
+              <img
+                className="d-block w-60 img-fluid"
+                src=" https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/Brochure-1.jpg?alt=media&token=ba69e067-924c-40fe-894a-ea812b472c26"
+                alt="/"
+              />
+            </div> 
+             <div className="carousel-item">
+              <img
+                className="d-block w-60 img-fluid"
+                src=" https://firebasestorage.googleapis.com/v0/b/kaushal-5e8bb.appspot.com/o/Brochure-2.jpg?alt=media&token=3c6701a7-5fe9-468e-a05b-2a8934bd4cd5"
+                alt="/"
+              />
             </div>
-            
           </div>
           <a
             className="carousel-control-prev"
