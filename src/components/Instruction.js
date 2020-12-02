@@ -76,8 +76,8 @@ export default function Instruction() {
                     target="_blank"  rel="noopener noreferrer"  className="btn-flip btn-group-lg" data-back="Event Schedule" data-front="Event Schedule">.</a>
                     </div>
                     
-                    <div className="col-lg-4 col-md- bt23">
-                      <a href ="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Day-wise%20Event%20Schedule-CSI%20State%20Student%20Convention-Region-III.pdf?alt=media&token=fa20d794-91fe-4f91-adfe-ffa5111ce88b" 
+                    <div className="col-lg-4 col-md-6 bt23">
+                      <a href ="https://firebasestorage.googleapis.com/v0/b/kaushal-2020.appspot.com/o/Rules%20%26%20Instruction%20of%20Event%2C%20Contests%20of%20CSI%20State%20Student%20Convention-M.P-Region%20III.pdf?alt=media&token=9ea91a30-191b-45c0-86c9-91e0eb20e790" 
                     target="_blank"  rel="noopener noreferrer"  className="btn-flip" data-back="Rules and Regulations" data-front="Rules and Regulations">.</a>
                     </div>
             </div>
